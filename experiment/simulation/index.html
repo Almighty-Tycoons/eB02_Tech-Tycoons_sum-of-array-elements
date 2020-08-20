@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <title>Simulation</title>
+  <link rel="stylesheet" href="css/simulation_css.css">
+  <script src="https://kit.fontawesome.com/e557324b23.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="body">
+    <!-- Side navigation bar -->
+    <div class="side-bar">
+      <button id="start-btn" type="button" class="button-style" onclick="Start()">Start</button>
+      <button id="next-btn" type="button" class="button-style" onclick="Next()">Next</button>
+      <div id="InputBlock" class="InputBlock">
+        <div>
+          <p style="color: white;">Enter Values</p>
+        </div>
+        <br>
+        <label for="inputV1">Enter no. of elements N (max 10) :</label>
+        <input class="input-field" id="inputV1" type="text" value="">
+        <button class="button-style" type="button" id="enter-btn" name="button" onclick="enter()">enter</button>
+        <br>
+
+        <h4>Input Array Elements</h4>
+        <input id="in1" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in2" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in3" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in4" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in5" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in6" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in7" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in8" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in9" class="input-field" type="text" name="array[]" value="" /><br>
+        <input id="in10" class="input-field" type="text" name="array[]" value="" /><br>
+        <button class="button-style" type="button" id="submit-btn" name="button" onclick="displayElements()"> Submit </button>
+        <button id="next-btn1" type="button" class="button-style" onclick="Execution()">Next</button>
+
+
+      </div>
+    </div>
+    <!-- Side navigation-bar end -->
+
+    <!-- Main body -->
+    <div class="main-container">
+      <!-- Top nav bar -->
+      <div class="top-nav-bar">
+        <h1 class="main-ques">
+          Largest Number
+        </h1>
+        <a href="index.html"><i class="fas fa-home home-icon"></i></a>
+      </div>
+      <!-- Top nav bar ends -->
+      <div id="nav-bar">
+        <ul class="nav">
+          <li class="listItem"><a href="#">Simulation</a></li>
+        </ul>
+      </div>
+      <div class="main-box">
+        <div class="animation">
+          <div class="head">
+            <h1 style="text-align: center; color: #fff;">Animation</h1>
+          </div>
+          <div id="resultDisplay">
+
+            <div class="">
+              <h3 style="margin-left:2%" id="a[]"></h3>
+            </div>
+            <div class="grid-container" id="myDIV">
+              <div id="d1" class="di">
+                <h6>a[0]</h6>
+                <p id="di1">1</p>
+              </div>
+              <div id="d2" class="item2 di">
+                <h6>a[1]</h6>
+                <p id="di2">2</p>
+              </div>
+              <div id="d3" class="item3 di">
+                <h6>a[2]</h6>
+                <p id="di3">3</p>
+              </div>
+              <div id="d4" class="item4 di">
+                <h6>a[3]</h6>
+                <p id="di4">4</p>
+              </div>
+              <div id="d5" class="item5 di">
+                <h6>a[4]</h6>
+                <p id="di5">5</p>
+              </div>
+              <div id="d6" class="item6 di">
+                <h6>a[5]</h6>
+                <p id="di6">6</p>
+              </div>
+              <div id="d7" class="item7 di">
+                <h6>a[6]</h6>
+                <p id="di7">7</p>
+              </div>
+              <div id="d8" class="item8 di">
+                <h6>a[7]</h6>
+                <p id="di8">8</p>
+              </div>
+              <div id="d9" class="item9 di">
+                <h6>a[8]</h6>
+                <p id="di9">9</p>
+              </div>
+              <div id="d10" class="item10 di">
+                <h6>a[9]</h6>
+                <p id="di10">10</p>
+              </div>
+            </div>
+            <hr id="hr">
+            <h2 class="re" id="re"></h2>
+            <div id="temp-container" class="temp-container">
+
+              <div class="out-box" id="box-A">
+                <h4>i</h4>
+                <div id="" class="box">
+                  <h1 class="user-text" id="A">
+
+                  </h1>
+                </div>
+              </div>
+              <div class="out-box" id="box-B">
+                <h4>a[i]</h4>
+                <div id="" class="box">
+                  <h1 class="user-text" id="B">
+
+                  </h1>
+                </div>
+              </div>
+              <div class="sum-box" id="box-D">
+                <h4>sum</h4>
+                <div id="" class="box">
+                  <h1 class="user-text" id="D">
+                    0
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="code">
+          <div class="head">
+            <h1 style="text-align: center; color: #fff;">Code</h1>
+          </div>
+          <div class="stepExecutionDisplay">
+            <div class="" id="Swap">
+              <div class="code-text" id="">#include < studio.h>
+              </div>
+              <div class="code-text" id="">#include < conio.h>
+              </div><br>
+              <div class="code-text" id="line1"> int main(){ </div><br>
+              <div class="code-text" id="line2"> int a[10]; </div>
+              <div class="code-text" id="line3"> int i, N, sum=0; </div><br>
+              <div class="code-text" id="line4"> printf("Input the number of elements to be stored in the array :"); </div>
+              <div class="code-text" id="line5"> scanf("%d",&N); </div><br>
+              <div class="code-text" id="line6"> printf("Input elements of array :"); </div><br>
+              <div class="code-text" id="line7"> for ( i=0 ; i< N ; i++) </div> <div class="code-text" id="line8"> scanf("%d",&a[i]); </div><br>
+              <div class="code-text" id="fline0"> for ( i=0 ; i< N ; i++){ </div> <div class="code-text" id="fline1"> sum += a[i] ;</div><br>
+              <div class="code-text" id="rline0"> printf("Sum of all elements stored in the array is : %d\n\n", sum);</div>
+              <div class="code-text" id="rline1"> return 0; </div>
+              <div class="code-text" id="eline"> } </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-input">
+      <div class="BottomInputBlock">
+        <button id="start-btn" type="button" class="button-style" onclick="Start()">Start</button>
+        <button id="next-btn" type="button" class="button-style" onclick="Next()">Next</button>
+        <div id="InputBlock" class="InputBlock">
+          <div>
+            <p style="color: white;">Enter Values</p>
+          </div>
+          <br>
+          <label for="inputV1">Enter no. of elements N (max 10) :</label>
+          <input class="input-field" id="inputV1" type="text" value="">
+          <button class="button-style" type="button" id="enter-btn" name="button" onclick="enter()">enter</button>
+          <br>
+
+          <h4>Input Array Elements</h4>
+          <input id="in1" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in2" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in3" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in4" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in5" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in6" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in7" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in8" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in9" class="input-field" type="text" name="array[]" value="" /><br>
+          <input id="in10" class="input-field" type="text" name="array[]" value="" /><br>
+          <button class="button-style" type="button" id="submit-btn" name="button" onclick="displayElements()"> Submit </button>
+          <button id="next-btn1" type="button" class="button-style" onclick="Execution()">Next</button>
+
+
+          <!-- <div class="input-bottom-box">
+            <label for="inputV4">num1</label><br>
+            <input class="input-field" id="inputV4" type="text">
+          </div>
+          <div class="input-bottom-box">
+            <label for="inputV5">num2</label><br>
+            <input class="input-field" id="inputV5" type="text">
+          </div>
+          <div class="input-bottom-box">
+            <label for="inputV6">num3</label><br>
+            <input class="input-field" id="inputV6" type="text">
+          </div>
+          <div class="input-bottom-button">
+            <div>
+              <input type="button" class="okButton bottom-button button-style" id="btnOk" onclick="displayElements()" value="OK">
+            </div>
+            <div>
+              <input type="button" class="hide bottom-button button-style" id="next1" onclick="Execution()" value="Next">
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+      <!-- Main body ends -->
+    </div>
+    <!-- Whole body ends -->
+
+</body>
+<script src="js/simulation_js.js" charset="utf-8"></script>
+
+</html>
