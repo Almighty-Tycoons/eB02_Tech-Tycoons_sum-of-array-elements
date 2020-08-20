@@ -8,7 +8,7 @@
   padding: 6px;
 }
 .arrayColor{
-  background-color:#decdc3 !important;
+  background-color:#fff !important;
   color: #797a7e;
 }
 .grid-container > div {
@@ -26,16 +26,31 @@
 
 }
 .result{
-  margin-top: 30%;
+  margin-top: 6% !important;
   color: #000;
-  background-color: green;
+  background-color: #fddb3a;
   width: 150px;
   height: 150px;
   text-align: center;
   font-size: 600%;
-  margin-left: 20%;
+  margin-left: 10%;
+  float: left;
+}
+.re{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+.fil{
+  background-color: #fddb3a !important;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    margin-top: 20px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+}
 
 
 
@@ -346,16 +361,16 @@ label {
 
 @media only screen and (max-width: 800px) {
   .main-container {
-    width: 86%;
+    width: 100%;
     transition: all 0.3s ease;
   }
 
-  /* .side-bar {
+  .side-bar {
     transition: all 0.3s ease;
     width: 0%;
     display: none;
     visibility: hidden;
-  } */
+  }
 
   .top-nav-bar {
     padding-top: 2%;
@@ -381,16 +396,16 @@ label {
     padding-bottom: 3%;
   }
 
-  /* .bottom-input {
+  .bottom-input {
     transition: all 0.3s ease;
     padding-top: 1vh;
-    display: none !important;
+    display: inline-block !important;
     min-width: 100vw;
     background-color: #46445a;
     position: fixed;
     bottom: 0;
     padding-left: 10%;
-  } */
+  }
 
   .input-bottom-box {
     transition: all 0.3s ease;
