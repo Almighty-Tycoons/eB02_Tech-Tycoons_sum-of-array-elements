@@ -3,7 +3,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Computer Programming Lab
-<b> Experiment|     <b> 1. (KCS-101/KCS-201) WAP that simply takes elements of array from the user and finds the sum of these elements.
+<b> Experiment|     <b> 3. (KCS-101/KCS-201) WAP that simply takes elements of array from the user and finds the sum of these elements.
 <h5> About the Lab (Objective) : </h5>
 
 To learn how to input elements of array and find the sum of these elements of array.
@@ -17,7 +17,7 @@ An array is a collection of similar types of data. It is a container that holds 
 
 <h5> Course Alignment : </h5>
 
-C/C++ Programming Lab
+Programming for Problem Solving Lab
 
 <h5> Universities Mapped : </h5>
 
