@@ -3,7 +3,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Programming for Problem Solving Lab
-<b> Experiment|     <b> 3. Write A Program that simply takes elements of array from the user and finds the sum of these elements.
+<b> Experiment|     <b> 3. Write a program that simply takes elements of array from the user and finds the sum of these elements.
 <h5> About the Lab (Objective) : </h5>
 
 The lab is created to to introduce students to the basic knowledge of programming fundamentals of C
