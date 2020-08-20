@@ -2,7 +2,7 @@
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> Computer Programming Lab
+<b> Lab | <b> Programming for Problem Solving Lab
 <b> Experiment|     <b> 3. (KCS-101/KCS-201) WAP that simply takes elements of array from the user and finds the sum of these elements.
 <h5> About the Lab (Objective) : </h5>
 
