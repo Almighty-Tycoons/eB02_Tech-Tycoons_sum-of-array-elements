@@ -45,9 +45,9 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u> Expository
 ###### Assessment Method: Formative assessment 
 
-<u> <b>Description: </b> Students will perform tasks on the basis of instructions given previously, experience easy learning during entire process. So its instruction strategy is expository. </u>
+<u> <b>Description: </b> Simulator will show sum of elements of an array. </u>
 <br>
- Brief description as per handout
+ Students will perform tasks on the basis of instructions given previously, and simulator will execute code line by line.
 
 <br/>
 <div align="right">
@@ -64,13 +64,9 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| LO's as described in section 1 <br> To be able to  assign values to  array indexes  | Type the task that <br> student will perform | Type the question that will assess what student has learnt
-2.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
-
-
-You can add more question. All questions may not be as MCQ
-Please add the correct answer as well.
-or type the correct answer below the question.
+1.| Student will be able to <br> assign values to  array indexes  | Student will input <br>index and values at every index | Q.1 An array Index starts with.?<br> A) -1 <br><b>B) 0 </b><br> C) 1 <br> D) 2
+2.| Student will be able to <br> understand cocept of loops | Student will perform<br>same step until the loop ends. | Q.2 Choose a correct C Statement regarding for loop.<br>for(; ;);<br> A) for loop works exactly first time <br> <b> B) for loop works infinite number of times </b><br> C) Compiler error <br> D) None of the above
+3.| Student will be able to <br> understand the concept of array | Student will perform <br> diffrent cases to explore his/her knowledge | Q3. What is an array Base Address in C language.? <br> A) Base address is the address of 0th index element. <br> B) An array b[ ] base address is &amp;b[0] <br> C) An array b[ ] base address can be printed with printf("%d", b); <br> <b> D) All the above </b>
 
  <br>
 
@@ -89,7 +85,7 @@ or type the correct answer below the question.
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-2.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+1.| Student will start the simulator  | Simulator will ask number of index that student wants  |In C programming we have to define size of array at initial point so always ask number of indexes that student needs.
+2.| Student will input number of indexes | Simulator will show input boxes for student to enter values on indexes  | Describe the purpose in detail.
 3.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
 4.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
