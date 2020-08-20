@@ -1,55 +1,53 @@
-## Storyboard (Round 2)
+## Introduction (Round 0)
 
-Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
+<b>Discipline | <b>Computer Science and Engineering
+:--|:--|
+<b> Lab | <b> Programming for Problem Solving Lab
+<b> Experiment|     <b> 3. Write a program that simply takes elements of array from the user and finds the sum of these elements.
+<h5> About the Lab (Objective) : </h5>
 
-Experiment 1: Name of the Experiment
+The lab is created to introduce students to the basic knowledge of programming fundamentals of C
+language and to impart writing skill of C programming to the students and solving problems.
 
-### 1. Story Outline:
+<h5> About the Experiment : </h5>
+An array is a collection of similar types of data. It is a container that holds data (values) of one single type.
+ We will learn how to define array and take input from users and then find the sum of all the elements of array using programming language.
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+<h5> Target Audience : </h5>
 
-### 2. Story:
+ Aktu students and faculties / B.tech 1st year students.
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
+<h5> Course Alignment : </h5>
 
-#### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+Programming for Problem Solving Lab
 
-#### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+<h5> Universities Mapped : </h5>
 
-#### 2.3 Set the Pathway Activities:
+  ABDUL KALAM TECHNICAL UNIVERSITY
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+<b>Name of Developer | <b>Jasvant Kumar
+:--|:--|
+<b> Institute | <b> B.N. COLLEGE OF ENGINEERING AND TECHNOLOGY
+<b> Email id|     <b> er.jaswantsingh786@gmail.com
+<b> Department | Computer Science and Engineering
 
-##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+#### Mentor Details
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+<b>Mentored by | <b> Er Dhananjaya Umrao
+:--|:--|
+<b> Institute | <b> IIT Kanpur
+<b> Email id|     <b> umraodhananjay@gmail.com
+<b> Department | <b> Computer Science and Engineering
 
-##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
+#### Contributors List
 
-##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+SrNo | Name | Faculty or Student | Department| Institute | Email id
+:--|:--|:--|:--|:--|:--|
+1 | Jasvant Kumar | Faculty | Computer Science and Engineering| B.N.C.E.T, Lucknow | er.jaswantsingh786@gmail.com
+2 | Raza Mehndi | Student | Information Technology | B.N.C.E.T, Lucknow |razamehndi81@gmail.com
+3 | Aasiya Zabeen | Student | Computer Science and Engineering| B.N.C.E.T, Lucknow |syedasiya000@gmail.com
+4 | Rudra Narayan Gupta | Student | Computer Science and Engineering | B.N.C.E.T, Lucknow |rudra9506@gmail.com
+5 | Akhilesh Tripathi | Student | Computer Science and Engineering| B.N.C.E.T, Lucknow |akhilesh03tripathi@gmail.com
 
-##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
 
-
-### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
 <br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
-
-### 4. Mindmap:
-<img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
-
-### 5. Storyboard :
-Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
