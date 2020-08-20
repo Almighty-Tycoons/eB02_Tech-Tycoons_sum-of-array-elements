@@ -6,7 +6,7 @@
 <b> Experiment|     <b> 3. Write a program that simply takes elements of array from the user and finds the sum of these elements.
 <h5> About the Lab (Objective) : </h5>
 
-The lab is created to to introduce students to the basic knowledge of programming fundamentals of C
+The lab is created to introduce students to the basic knowledge of programming fundamentals of C
 language and to impart writing skill of C programming to the students and solving problems.
 
 <h5> About the Experiment : </h5>
@@ -15,7 +15,7 @@ An array is a collection of similar types of data. It is a container that holds 
 
 <h5> Target Audience : </h5>
 
- Aktu students/ B.tech 1st year students.
+ Aktu students and faculties / B.tech 1st year students.
 
 <h5> Course Alignment : </h5>
 
