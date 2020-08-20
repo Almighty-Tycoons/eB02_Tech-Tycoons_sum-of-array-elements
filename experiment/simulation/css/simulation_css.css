@@ -360,17 +360,17 @@ label {
 }
 
 @media only screen and (max-width: 800px) {
-  .main-container {
+  /* .main-container {
     width: 100%;
     transition: all 0.3s ease;
-  }
+  } */
 
-  .side-bar {
+  /* .side-bar {
     transition: all 0.3s ease;
     width: 0%;
     display: none;
     visibility: hidden;
-  }
+  } */
 
   .top-nav-bar {
     padding-top: 2%;
@@ -395,7 +395,7 @@ label {
     padding-top: 3%;
     padding-bottom: 3%;
   }
-
+/* 
   .bottom-input {
     transition: all 0.3s ease;
     padding-top: 1vh;
@@ -405,9 +405,9 @@ label {
     position: fixed;
     bottom: 0;
     padding-left: 10%;
-  }
+  } */
 
-  .input-bottom-box {
+  /* .input-bottom-box {
     transition: all 0.3s ease;
     float: left;
     width: 20%;
@@ -430,7 +430,7 @@ label {
     transition: all 0.3s ease;
     float: right;
     width: 40%;
-  }
+  } */
 
   .original-container {
     margin-top: 100px !important;
