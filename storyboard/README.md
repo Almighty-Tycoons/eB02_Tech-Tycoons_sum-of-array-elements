@@ -1,53 +1,148 @@
-## Introduction (Round 0)
+## Storyboard (Round 2)
 
-<b>Discipline | <b>Computer Science and Engineering
-:--|:--|
-<b> Lab | <b> Programming for Problem Solving Lab
-<b> Experiment|     <b> 3. Write a program that simply takes elements of array from the user and finds the sum of these elements.
-<h5> About the Lab (Objective) : </h5>
+Experiment 1:  Write a program that simply takes elements of array from the user and finds the sum of these elements.
 
-The lab is created to introduce students to the basic knowledge of programming fundamentals of C
-language and to impart writing skill of C programming to the students and solving problems.
+### 1. Story Outline:
 
-<h5> About the Experiment : </h5>
-An array is a collection of similar types of data. It is a container that holds data (values) of one single type.
- We will learn how to define array and take input from users and then find the sum of all the elements of array using programming language.
+An array is a collection of similar types of data. It is a container that holds data (values) of one single type. we will detail in on all the ways to add elements and find the sum of all array elements in C programming.
 
-<h5> Target Audience : </h5>
+### 2. Story:
 
- Aktu students and faculties / B.tech 1st year students.
+The experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of user, User will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. And this is how the program will give the sum of all array elements.
 
-<h5> Course Alignment : </h5>
+#### 2.1 Set the Visual Stage Description:
 
-Programming for Problem Solving Lab
-
-<h5> Universities Mapped : </h5>
-
-  ABDUL KALAM TECHNICAL UNIVERSITY
-
-<b>Name of Developer | <b>Jasvant Kumar
-:--|:--|
-<b> Institute | <b> B.N. COLLEGE OF ENGINEERING AND TECHNOLOGY
-<b> Email id|     <b> er.jaswantsingh786@gmail.com
-<b> Department | Computer Science and Engineering
-
-#### Mentor Details
-
-<b>Mentored by | <b> Er Dhananjaya Umrao
-:--|:--|
-<b> Institute | <b> IIT Kanpur
-<b> Email id|     <b> umraodhananjay@gmail.com
-<b> Department | <b> Computer Science and Engineering
-
-#### Contributors List
-
-SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | Jasvant Kumar | Faculty | Computer Science and Engineering| B.N.C.E.T, Lucknow | er.jaswantsingh786@gmail.com
-2 | Raza Mehndi | Student | Information Technology | B.N.C.E.T, Lucknow |razamehndi81@gmail.com
-3 | Aasiya Zabeen | Student | Computer Science and Engineering| B.N.C.E.T, Lucknow |syedasiya000@gmail.com
-4 | Rudra Narayan Gupta | Student | Computer Science and Engineering | B.N.C.E.T, Lucknow |rudra9506@gmail.com
-5 | Akhilesh Tripathi | Student | Computer Science and Engineering| B.N.C.E.T, Lucknow |akhilesh03tripathi@gmail.com
+Simulator starts with the experiment name on the top and show the code in code block. Simulator consist of three blocks, at the left click on NEXT, the simulator asks for size of array. User will have to give size of array and then click on ENTER button after that simulator asks for array elements input from the user. User will have to give array elements and then click on ENTER. After that user will click on ENTER then array elements will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program user will get the sum of array elements and will show in the memory block of the simulator. 
 
 
+#### 2.2 Set User Objectives & Goals:
+
+
+1. The main objective of the user is to get sum of array elements.
+2. To get to know about the algorithm of sum of array elements.
+3. To understand how to assign the elements to array.
+4. User need to answer some question based on the experiment. 
+
+
+#### 2.3 Set the Pathway Activities:
+
+1. User start the simulator.
+2. User click on NEXT.
+3. Code runs. 
+4. User click on NEXT.
+5. Simulatorasks for sixe of array.
+6. User inputs the value and click on ENTETR.
+7. Simulaor asks for the value of array elements.
+8. User inputs the value of array elements and click on SUBMIT.
+9. The value of num2 will assign to the value of num1.
+10. Array elements will show in the memory block of simulator.
+11. Click on NEXT.
+12. Array Elements will be added till user click on NEXT.
+13. User will get sum of array elements at the execution of the program.
+14. Program finished.
+
+##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+
+
+Difficuty level: Evaluate<br>
+Q1- Predict output of following program.<br>
+             int main()<br>
+                {<br>
+             int i;<br>
+             int arr[5] = {1};<br>
+             for (i = 0; i < 5; i++)<br>
+             printf("%d ", arr[i]);<br>
+             return 0;<br>
+             }<br>
+
+(a) 1 followed by four garbage values <br>
+(b) 1 1 1 1 1 <br>
+<b>(c) 1 0 0 0 0 </b> <br>
+(d) 0 0 0 0 0 <br>
+
+Difficuty level: Evaluate<br>
+Q2- Does C perform array out of bound checking? What is the output of the following program? <br>
+                              int main()<br>
+                                {<br>
+                               int i;<br>
+                               int arr[5] = {0};<br>
+                               for (i = 0; i <= 5; i++)<br>
+                               printf("%d ", arr[i]);<br>
+                               return 0;<br>
+                               } <br>
+                                  
+(a) Compiler Error: Array index out of bound. <br>
+<b>(b) The program may print 0 five times followed by garbage value, or may crash if address (arr+5) is invalid.</b> <br>
+(c) The program always crashes.<br>
+(d) Non of them<br>
+
+Difficulty level: Apply<br>
+Q3- What does the following declaration mean?<br>
+        int (*ptr)[10];<br> 
+
+<b>(a)ptr is a pointer to an array of 10 integers</b><br>
+(b) ptr is an array of 10 integers<br>
+(c) ptr is an pointer to array<br>
+(d) ptr is array of pointers to 10 integers<br>
+
+
+Difficulty level: Evaluate<br>
+Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?<br>
+<b>(a) First element of the array</b><br>
+(b) Base address of the array<br>
+(c) Value of elements in array<br>
+(d) Address of the last element of array<br>
+
+Difficulty level: Apply<br>
+Q5-  Predict the output of below program.<br><br>
+              <p> #include <stdio.h> </p>
+                 <p>int main()  </p>
+                    <p>{  </p>
+               <p> int arr[5];  </p>
+               <p>// Assume that base address of arr is 2000 and size of integer </p>
+            <p>  // is 32 bit  </p>
+              <p>arr++;  </p>
+            <p> printf("%u", arr);  </p>
+            <p> return 0; </p>
+            <p>}  </p>
+(a) 2020<br>
+<b>(b) lvalue required</b><br>
+(c) 2004<br>
+(d) Non of above<br>
+
+
+##### 2.5 Allow pitfalls:
+
+There are pitfalls in the simulator, mentioned below:
+1. program will not perform if user will give more than 10 number in size of array.
+2. User will get an "please provide inputs" message if user presses enter without giving input.
+3. User will get an error message if user enter string(alphabets or symbols) input.
+4. User should not enter less than size of array.
+
+##### 2.6 Conclusion:
+
+In this whole experiment, User will be able to learn deep concepts after implementing things by doing hands-on tasks. This contains tasks separately to each learning objective mentioned by us. Generally, it will take almost half an hour to perform the experiment and to grasp the concept fully. Based on the successful completion of the experiment, user will be able to uderstand the algorithm of sum of array. And simulator expalains easliy how this whole process is done and how the logic behind this process works. Hence with this, all the mentioned learning outcomes can be taken with the user.
+
+##### 2.7 Equations/formulas: NA
+
+for(i=0; i<n; i++)<br>
+   { <br>
+      sum += a[i]; <br>
+   }<br>
+
+### 3. Flowchart 4
+<img src="flowchart/flowchart.png"/><br>
+link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
 <br>
+(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
+
+### 4. Mindmap:
+<img src="mindmap/mindmap.png"/>
+ Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
+ <br>
+ (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
+
+### 5. Storyboard :
+Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
+Link to storybaord (.gif file ) here :
+(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
