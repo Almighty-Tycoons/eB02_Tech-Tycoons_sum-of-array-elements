@@ -473,13 +473,13 @@ label {
   }
 
   .top-nav-bar .main-ques {
-    font-size: 24px;
+    font-size: 22px;
     transition: all 0.3s ease;
   }
 
   .top-nav-bar a .home-icon {
     transition: all 0.3s ease;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .nav {
