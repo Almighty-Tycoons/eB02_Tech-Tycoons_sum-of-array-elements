@@ -2,14 +2,14 @@
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
-<b> Lab | <b> KCS-101/KCS-201
+<b> Lab | <b> Computer Programming Lab
 <b> Experiment|     <b> 1. (KCS-101/KCS-201) WAP that simply takes elements of array from the user and finds the sum of these elements.
 <h5> About the Lab (Objective) : </h5>
 
-To learn how to  take elements of array from the user and finds the sum of these elements.
+To learn how to input elements of array and find the sum of these elements of array.
 <h5> About the Experiment : </h5>
 An array is a collection of similar types of data. It is a container that holds data (values) of one single type.
- we will detail in on all the ways to find the sum of all array elements in C programming.
+ We will learn how to define array and take input from users and then find the sum of all the elements of array using programming language.
 
 <h5> Target Audience : </h5>
 
