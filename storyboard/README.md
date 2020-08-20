@@ -77,7 +77,7 @@ Q2- Does C perform array out of bound checking? What is the output of the follow
 (d) Non of them<br>
 
 Difficulty level: Apply<br>
-Q3- What does the following declaration mean?<br>
+Q3- What does the following declaration mean?<br><br>
         int (*ptr)[10];<br> 
 
 <b>(a)ptr is a pointer to an array of 10 integers</b><br>
@@ -94,17 +94,17 @@ Q4- In C, if you pass an array as an argument to a function, what actually gets 
 (d) Address of the last element of array<br>
 
 Difficulty level: Apply<br>
-Q5-  Predict the output of below program.<br><br>
-              <p> #include <stdio.h> </p>
-                 <p>int main()  </p>
-                    <p>{  </p>
-               <p> int arr[5];  </p>
-               <p>// Assume that base address of arr is 2000 and size of integer </p>
-            <p>  // is 32 bit  </p>
-              <p>arr++;  </p>
-            <p> printf("%u", arr);  </p>
-            <p> return 0; </p>
-            <p>}  </p>
+Q5-  Predict the output of below program.<br>
+            #include <stdio.h><br> 
+            int main()<br>
+               { <br>
+            int arr[5];<br>
+            // Assume that base address of arr is 2000 and size of integer <br>
+            // is 32 bit  <br>
+            arr++;  <br>
+            printf("%u", arr);  <br>
+            return 0; <br>
+            }  <br>
 (a) 2020<br>
 <b>(b) lvalue required</b><br>
 (c) 2004<br>
@@ -124,7 +124,14 @@ There are pitfalls in the simulator, mentioned below:
 In this whole experiment, User will be able to learn deep concepts after implementing things by doing hands-on tasks. This contains tasks separately to each learning objective mentioned by us. Generally, it will take almost half an hour to perform the experiment and to grasp the concept fully. Based on the successful completion of the experiment, user will be able to uderstand the algorithm of sum of array. And simulator expalains easliy how this whole process is done and how the logic behind this process works. Hence with this, all the mentioned learning outcomes can be taken with the user.
 
 ##### 2.7 Equations/formulas: NA
-
+int i, n;<br>
+printf("Input the number of elements to be stored in the array :");<br>
+       scanf("%d",&n);<br> 
+printf("Input %d elements in the array :\n",n);<br>
+      { <br>
+      printf("element - %d : ",i); <br>
+       scanf("%d",&a[i]); <br>
+       } <br>
 for(i=0; i<n; i++)<br>
    { <br>
       sum += a[i]; <br>
