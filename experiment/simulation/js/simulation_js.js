@@ -6,6 +6,7 @@ document.getElementById("box-B").hidden = true;
 document.getElementById("box-D").hidden = true;
 document.getElementById("re").hidden = true;
 document.getElementById("submit-btn").hidden = true;
+document.getElementById("hr").hidden = true;
 
 document.getElementById("in1").hidden = true;
 document.getElementById("in2").hidden = true;
@@ -18,6 +19,7 @@ document.getElementById("in8").hidden = true;
 document.getElementById("in9").hidden = true;
 document.getElementById("in10").hidden = true;
 
+$('.di').hide();
 document.getElementById("di1").hidden = true;
 document.getElementById("di2").hidden = true;
 document.getElementById("di3").hidden = true;
@@ -51,6 +53,9 @@ function Next() {
 
   } else {
     if (cn == 3) {
+      $('.di').show();
+      document.getElementById("a[]").hidden = false;
+      document.getElementById("a[]").innerHTML = "a[10]";
       changeClassColor(c + cn1, 'showDivInRed')
       console.log(cn + "  im 3");
       document.getElementById("box-A").hidden = false;
@@ -96,6 +101,12 @@ function enter() {
 
   Next();
   Next();
+  for (var i=1;i<=N;i++){
+    $("#d"+i).addClass("fil");
+  }
+
+  document.getElementById("a[]").hidden = false;
+  document.getElementById("a[]").innerHTML = "a[" + N + "]";
   // console.log(N);
   for (var i = 1; i <= N; i++) {
     document.getElementById("in" + parseInt(i)).hidden = false;
@@ -113,8 +124,6 @@ function enter() {
 function displayElements() {
 
   Next();
-  document.getElementById("a[]").hidden = false;
-  document.getElementById("a[]").innerHTML = "a[" + N + "]";
   // counting of elements
   for (var i = 1; i <= N; i++) {
     var s = Number(document.getElementById("in" + parseInt(i)).value);
@@ -152,16 +161,16 @@ function createBoxes() {
   changeClass('resultDisplay', 'resultDisplay');
 
 }
-var reload = false;
+// var reload = false;
 var i = 0;
 var finished = false;
 var result = 0;
 
 function Execution() {
   changeClass("fline0", "showDivInRed code-text");       ///
-  if (reload) {
-    location.reload();
-  }
+  // if (reload) {
+  //   location.reload();
+  // }
   if (finished) {
     alert("Program over");
     location.reload();
@@ -284,6 +293,7 @@ function Execution() {
                       document.getElementById("box-A").hidden = false;
                       document.getElementById("box-B").hidden = false;
                       document.getElementById("box-D").hidden = false;
+                      document.getElementById("hr").hidden = false;
                       document.getElementById("temp-container").innerHTML = result;
                       document.getElementById("re").hidden = false;
                       document.getElementById("re").innerHTML = "sum";
