@@ -17,16 +17,14 @@
       <button id="start-btn" type="button" class="button-style" onclick="Start()">Start</button>
       <button id="next-btn" type="button" class="button-style" onclick="Next()">Next</button>
       <div id="InputBlock" class="InputBlock">
-        <div>
-          <p style="color: white;">Enter Values</p>
-        </div>
         <br>
         <label for="inputV1" style="width: 14%;">Enter no. of elements N (max 10) :</label>
-        <input class="input-field" id="inputV1" type="text" value="">
+        <input class="input-field" id="inputV1" type="text" value=" ">
         <button class="button-style" type="button" id="enter-btn" name="button" onclick="enter()">enter</button>
         <br>
-
-        <h4">Input Array Elements</h4>
+<br>
+        <h4 id="in">Input Array Elements</h4>
+        <br>
         <input id="in1" class="input-field" type="text" name="array[]" value="" /><br>
         <input id="in2" class="input-field" type="text" name="array[]" value="" /><br>
         <input id="in3" class="input-field" type="text" name="array[]" value="" /><br>
@@ -77,11 +75,13 @@
               <div class="code-text" id="line4"> printf("Input the number of elements to be stored in the array :"); </div>
               <div class="code-text" id="line5"> scanf("%d",&N); </div><br>
               <div class="code-text" id="line6"> printf("Input elements of array :"); </div><br>
-              <div class="code-text" id="line7"> for ( i=0 ; i< N ; i++) </div> <div class="code-text" id="line8"> scanf("%d",&a[i]); </div><br>
-              <div class="code-text" id="fline0"> for ( i=0 ; i< N ; i++){ </div> <div class="code-text" id="fline1"> sum += a[i] ;</div><br>
+              <div class="code-text" id="line7"> for ( i=0 ; i< N ; i++) </div>
+              <div class="code-text" id="line8"> scanf("%d",&a[i]); </div><br>
+              <div class="code-text" id="fline0"> for ( i=0 ; i< N ; i++){ </div>
+              <div class="code-text" id="fline1"> sum += a[i] ;</div><br>
               <div class="code-text" id="rline0"> printf("Sum of all elements stored in the array is : %d\n\n", sum);</div>
               <div class="code-text" id="rline1"> return 0; </div>
-              <div class="code-text" id="eline"> } </div>
+              <div class="code-text" id=""> } </div>
             </div>
           </div>
         </div>
@@ -92,7 +92,7 @@
           <div id="resultDisplay">
 
             <div class="">
-              <h3 style="margin-left:2%" id="a[]"></h3>
+              <h3 style="margin-left:2%; margin-top:3%; color:white" id="a[]"></h3>
             </div>
             <div class="grid-container" id="myDIV">
               <div id="d1" class="di">
