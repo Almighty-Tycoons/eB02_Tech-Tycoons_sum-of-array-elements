@@ -74,7 +74,7 @@ Q2- Does C perform array out of bound checking? What is the output of the follow
 (a) Compiler Error: Array index out of bound. <br>
 <b>(b) The program may print 0 five times followed by garbage value, or may crash if address (arr+5) is invalid.</b> <br>
 (c) The program always crashes.<br>
-(d) Non of them<br>
+(d) None of them<br>
 
 Difficulty level: Apply<br>
 Q3- What does the following declaration mean?<br><br>
@@ -108,7 +108,7 @@ Q5-  Predict the output of below program.<br>
 (a) 2020<br>
 <b>(b) lvalue required</b><br>
 (c) 2004<br>
-(d) Non of above<br>
+(d) None of above<br>
 
 
 ##### 2.5 Allow pitfalls:

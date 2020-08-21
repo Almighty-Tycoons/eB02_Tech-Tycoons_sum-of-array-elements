@@ -4,7 +4,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 
-(function() {
+(function () {
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -72,45 +72,78 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
- 
-
-/////////////////////////////////////////////////////////////////////////////
-
-/////////////////////// Do not modify the above code ////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////
 
 
+  /////////////////////////////////////////////////////////////////////////////
+
+  /////////////////////// Do not modify the above code ////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////////
 
 
 
 
-/////////////// Write the MCQ below in the exactly same described format ///////////////
+
+
+  /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
   const myQuestions = [
     {
       question: "Choose the correct option to assing 1 or more elements in array at once in C?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "int[2];",                  ///// Write the option 1 inside double quotes
+        b: "int['a','b'];",                  ///// Write the option 2 inside double quotes
+        c: "int[2] = {1,2};",                  ///// Write the option 3 inside double quotes
+        d: "int{1,2};"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "What does the following declaration mean? <br>'int (*ptr)[10];'",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "ptr is a pointer to an array of 10 integers",                  ///// Write the option 1 inside double quotes
+        b: "ptr is an array of 10 integers",                  ///// Write the option 2 inside double quotes
+        c: "ptr is an pointer to array",                  ///// Write the option 3 inside double quotes
+        d: "ptr is array of pointers to 10 integers"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
-    									                  ///// this line
+                                        ///// this line
+
+    {
+      question: "Does C perform array out of bound checking? What is the output of the following program? <br> int main()<br> {<br>int i;<br>int arr[5] = {0};<br>for (i = 0; i <= 5; i++)<br>printf('%d', arr[i]);<br>return 0;<br>} <br>",
+      answers: {
+        a: "Compiler Error: Array index out of bound.",
+        b: "The program may print 0 five times followed by garbage value, or may crash if address (arr+5) is invalid.",
+        c: "The program always crashes.",
+        d: "None of them"
+      },
+      correctAnswer: "b"
+    },
+
+    {
+      question: "Predict output of following program.<br>int main()<br>   {<br>int i;<br>int arr[5] = {1};<br>for (i = 0; i < 5; i++)<br>printf('%d', arr[i]);<br>return 0;<br>}<br>",
+      answers: {
+        a: "1 followed by four garbage values",
+        b: "1 1 1 1 1",
+        c: "1 0 0 0 0",
+        d: "0 0 0 0 0"
+      },
+      correctAnswer: "c"
+    },
+
+    {
+      question: "Predict the output of below program.<br>#include <stdio.h><br> int main()<br>   { <br>int arr[5];<br>// Assume that base address of arr is 2000 and size of integer <br>// is 32 bit  <br>arr++;  <br>printf('%u', arr);  <br>return 0; <br>}  <br>",
+      answers: {
+        a: "2020",
+        b: "lvalue required",
+        c: "2004",
+        d: "None of above"
+      },
+      correctAnswer: "b"
+    },
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
@@ -144,11 +177,11 @@
 
 
 
-/////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////// Do not modify the below code ////////////////////////
+  /////////////////////// Do not modify the below code ////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////
 
 
   // display quiz right away
