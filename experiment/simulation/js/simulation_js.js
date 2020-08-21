@@ -8,6 +8,7 @@ document.getElementById("re").hidden = true;
 document.getElementById("submit-btn").hidden = true;
 document.getElementById("hr").hidden = true;
 
+document.getElementById("in").hidden = true;
 document.getElementById("in1").hidden = true;
 document.getElementById("in2").hidden = true;
 document.getElementById("in3").hidden = true;
@@ -49,11 +50,16 @@ function Start() {
 }
 
 function Next() {
-  if (cn == 11) {
+  if (cn == 2) {
+    $('.di').show();
+    changeClassColor(c + cn1, 'showDivInRed');
+    console.log(cn + "  im 2 ");
+    changeClass(c + cn, 'showDivInRed code-text');
+    cn += 1;
+    cn1 += 1;
 
   } else {
     if (cn == 3) {
-      $('.di').show();
       document.getElementById("a[]").hidden = false;
       document.getElementById("a[]").innerHTML = "a[10]";
       changeClassColor(c + cn1, 'showDivInRed')
@@ -92,17 +98,40 @@ var N;
 
 function enter() {
   document.getElementById("next-btn").hidden = true;
-  N = document.getElementById("inputV1").value;
-  if(N == ""){
+  N = document.getElementById("inputV1").value.trim();
+  if (N == "") {
     location.reload();
-        alert("Please provide inputs");
-        return;
+    alert("Please provide input in N");
+    return;
+  }
+
+  N = Number(N);
+  if (isNaN(N)) {
+    alert("Please provide input in numbers only");
+    location.reload();
+    return;
+  }
+  // console.log(N);
+  if (!Number.isInteger(N)) {
+    alert("Value of N can't be in float enter only positive Integer(max 10).");
+    location.reload();
+    return;
+  }
+  if (N === 0 || N < 0) {
+    alert("Minimum value of N : 1");
+    location.reload();
+    return;
+  }
+  if (N > 10) {
+    alert("Maximum limit of N : 10");
+    location.reload();
+    return;
   }
 
   Next();
   Next();
-  for (var i=1;i<=N;i++){
-    $("#d"+i).addClass("fil");
+  for (var i = 1; i <= N; i++) {
+    $("#d" + i).addClass("fil");
   }
 
   document.getElementById("a[]").hidden = false;
@@ -115,6 +144,7 @@ function enter() {
   document.getElementById("enter-btn").hidden = true;
   document.getElementById("submit-btn").hidden = false;
 
+  document.getElementById("in").hidden = false;
 
 }
 
@@ -126,18 +156,23 @@ function displayElements() {
   Next();
   // counting of elements
   for (var i = 1; i <= N; i++) {
-    var s = Number(document.getElementById("in" + parseInt(i)).value);
+    var s = document.getElementById("in" + parseInt(i)).value.trim();
     if (s == "") {
       location.reload();
-      alert("Please provide inputs");
+      alert("Please provide inputs in array elements");
       return;
     }
-    // sum += s;
+    s = Number(s);
+    if (isNaN(s)) {
+      alert("Please provide input in numbers only");
+      location.reload();
+      return;
+    }
     document.getElementById("di" + parseInt(i)).hidden = false;
     document.getElementById("di" + parseInt(i)).innerHTML = s;
     Next();
   }
-//  console.log(sum);
+  //  console.log(sum);
 
 
   document.getElementById("box-B").hidden = false;
@@ -164,141 +199,148 @@ function createBoxes() {
 // var reload = false;
 var i = 0;
 var finished = false;
+var finish = 0;
 var result = 0;
 
 function Execution() {
-  changeClass("fline0", "showDivInRed code-text");       ///
-  // if (reload) {
-  //   location.reload();
-  // }
-  if (finished) {
+  changeClass("fline0", "showDivInRed code-text"); ///
+
+  if (finished) { ////
     alert("Program over");
     location.reload();
   }
-  if (i == 0 && i < N) {
-    var s = Number(document.getElementById("in1").value);
-    document.getElementById("B").innerHTML = s;
-    document.getElementById("A").innerHTML = i;
-    changeClass("di1", 'arrayColor');
+  if (finish == 1) {
+    finished = true;
     changeClassColor("fline0", "showDivInRed");
-    changeClass("fline1", "showDivInRed code-text");
-    changeClassColor("line8", "showDivInRed");
-    result += s;
-    document.getElementById("D").innerHTML = result;
-    i += 1;
+    changeClassColor("rline0", "showDivInRed");
+    changeClass("rline1", "showDivInRed code-text");
+
   } else {
-    if (i == 1 && i < N) {
-      var s = Number(document.getElementById("in2").value);
+    if (i == 0 && i < N) {
+      var s = Number(document.getElementById("in1").value);
       document.getElementById("B").innerHTML = s;
       document.getElementById("A").innerHTML = i;
-      changeClass("di2", 'arrayColor');
+      changeClass("di1", 'arrayColor');
       changeClassColor("fline0", "showDivInRed");
       changeClass("fline1", "showDivInRed code-text");
+      changeClassColor("line8", "showDivInRed");
       result += s;
       document.getElementById("D").innerHTML = result;
       i += 1;
     } else {
-      if (i == 2 && i < N) {
-        var s = Number(document.getElementById("in3").value);
+      if (i == 1 && i < N) {
+        var s = Number(document.getElementById("in2").value);
         document.getElementById("B").innerHTML = s;
         document.getElementById("A").innerHTML = i;
-        changeClass("di3", 'arrayColor');
+        changeClass("di2", 'arrayColor');
         changeClassColor("fline0", "showDivInRed");
         changeClass("fline1", "showDivInRed code-text");
         result += s;
         document.getElementById("D").innerHTML = result;
         i += 1;
       } else {
-        if (i == 3 && i < N) {
-          var s = Number(document.getElementById("in4").value);
+        if (i == 2 && i < N) {
+          var s = Number(document.getElementById("in3").value);
           document.getElementById("B").innerHTML = s;
           document.getElementById("A").innerHTML = i;
-          changeClass("di4", 'arrayColor');
+          changeClass("di3", 'arrayColor');
           changeClassColor("fline0", "showDivInRed");
           changeClass("fline1", "showDivInRed code-text");
           result += s;
           document.getElementById("D").innerHTML = result;
           i += 1;
         } else {
-          if (i == 4 && i < N) {
-            var s = Number(document.getElementById("in5").value);
+          if (i == 3 && i < N) {
+            var s = Number(document.getElementById("in4").value);
             document.getElementById("B").innerHTML = s;
             document.getElementById("A").innerHTML = i;
-            changeClass("di5", 'arrayColor');
+            changeClass("di4", 'arrayColor');
             changeClassColor("fline0", "showDivInRed");
             changeClass("fline1", "showDivInRed code-text");
             result += s;
             document.getElementById("D").innerHTML = result;
             i += 1;
           } else {
-            if (i == 5 && i < N) {
-              var s = Number(document.getElementById("in6").value);
+            if (i == 4 && i < N) {
+              var s = Number(document.getElementById("in5").value);
               document.getElementById("B").innerHTML = s;
               document.getElementById("A").innerHTML = i;
-              changeClass("di6", 'arrayColor');
+              changeClass("di5", 'arrayColor');
               changeClassColor("fline0", "showDivInRed");
               changeClass("fline1", "showDivInRed code-text");
               result += s;
               document.getElementById("D").innerHTML = result;
               i += 1;
             } else {
-              if (i == 6 && i < N) {
-                var s = Number(document.getElementById("in7").value);
+              if (i == 5 && i < N) {
+                var s = Number(document.getElementById("in6").value);
                 document.getElementById("B").innerHTML = s;
                 document.getElementById("A").innerHTML = i;
-                changeClass("di7", 'arrayColor');
+                changeClass("di6", 'arrayColor');
                 changeClassColor("fline0", "showDivInRed");
                 changeClass("fline1", "showDivInRed code-text");
                 result += s;
                 document.getElementById("D").innerHTML = result;
                 i += 1;
               } else {
-                if (i == 7 && i < N) {
-                  var s = Number(document.getElementById("in8").value);
+                if (i == 6 && i < N) {
+                  var s = Number(document.getElementById("in7").value);
                   document.getElementById("B").innerHTML = s;
                   document.getElementById("A").innerHTML = i;
-                  changeClass("di8", 'arrayColor');
+                  changeClass("di7", 'arrayColor');
                   changeClassColor("fline0", "showDivInRed");
                   changeClass("fline1", "showDivInRed code-text");
                   result += s;
                   document.getElementById("D").innerHTML = result;
                   i += 1;
                 } else {
-                  if (i == 8 && i < N) {
-                    var s = Number(document.getElementById("in9").value);
+                  if (i == 7 && i < N) {
+                    var s = Number(document.getElementById("in8").value);
                     document.getElementById("B").innerHTML = s;
                     document.getElementById("A").innerHTML = i;
-                    changeClass("di9", 'arrayColor');
+                    changeClass("di8", 'arrayColor');
                     changeClassColor("fline0", "showDivInRed");
                     changeClass("fline1", "showDivInRed code-text");
                     result += s;
                     document.getElementById("D").innerHTML = result;
                     i += 1;
                   } else {
-                    if (i == 9 && i < N) {
-                      var s = Number(document.getElementById("in10").value);
+                    if (i == 8 && i < N) {
+                      var s = Number(document.getElementById("in9").value);
                       document.getElementById("B").innerHTML = s;
                       document.getElementById("A").innerHTML = i;
-                      changeClass("di10", 'arrayColor');
+                      changeClass("di9", 'arrayColor');
                       changeClassColor("fline0", "showDivInRed");
                       changeClass("fline1", "showDivInRed code-text");
                       result += s;
                       document.getElementById("D").innerHTML = result;
                       i += 1;
                     } else {
-                      changeClassColor("fline0", "showDivInRed");  ////
-                      changeClassColor("fline1", "showDivInRed");   ////
-                      changeClass("rline0", "showDivInRed code-text");
-                      changeClass("rline1", "showDivInRed code-text");
-                      document.getElementById("box-A").hidden = false;
-                      document.getElementById("box-B").hidden = false;
-                      document.getElementById("box-D").hidden = false;
-                      document.getElementById("hr").hidden = false;
-                      document.getElementById("temp-container").innerHTML = result;
-                      document.getElementById("re").hidden = false;
-                      document.getElementById("re").innerHTML = "sum";
-                      changeClass("temp-container","result");
-                      finished = true;
+                      if (i == 9 && i < N) {
+                        var s = Number(document.getElementById("in10").value);
+                        document.getElementById("B").innerHTML = s;
+                        document.getElementById("A").innerHTML = i;
+                        changeClass("di10", 'arrayColor');
+                        changeClassColor("fline0", "showDivInRed");
+                        changeClass("fline1", "showDivInRed code-text");
+                        result += s;
+                        document.getElementById("D").innerHTML = result;
+                        i += 1;
+                      } else {
+                        changeClassColor("fline0", "showDivInRed"); ////
+                        changeClassColor("fline1", "showDivInRed"); ////
+                        changeClass("rline0", "showDivInRed code-text");
+                        // changeClass("rline1", "showDivInRed code-text");
+                        document.getElementById("box-A").hidden = false;
+                        document.getElementById("box-B").hidden = false;
+                        document.getElementById("box-D").hidden = false;
+                        document.getElementById("hr").hidden = false;
+                        document.getElementById("temp-container").innerHTML = result;
+                        document.getElementById("re").hidden = false;
+                        document.getElementById("re").innerHTML = "sum";
+                        changeClass("temp-container", "result");
+                        finish = 1;
+                      }
                     }
                   }
                 }
@@ -308,10 +350,6 @@ function Execution() {
         }
       }
     }
-  // }
-  // if (finished == 1) {
-  //
-  //   alert("Programm Over");
-  //   location.reload();
   }
+
 }
