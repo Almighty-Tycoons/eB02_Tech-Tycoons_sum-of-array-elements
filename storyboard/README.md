@@ -150,7 +150,7 @@ for(i=0; i<n; i++) <br>
 <br>
  
 ### 5. Storyboard :
-<img src="images/1.png"><br>
+<img src="images/1.png"/><br>
 <img src="images/2.png"><br>
 <img src="images/3.png"><br>
 <img src="images/4.png"><br>
