@@ -5,7 +5,7 @@
   grid-gap: 2px;
   background-color: #46445a;
   /* padding: 6px; */
-  margin: 2%;
+  /* margin: 2%; */
 }
 
 .arrayColor {
@@ -24,15 +24,15 @@
   align-items: center;
   width: 30%;
   margin-left: 35%;
-  margin-top: 70%
+  margin-top: 40%;
 }
 
 .result {
   margin: 6% !important;
   color: #000;
   background-color: #fddb3a;
-  width: 87%;
-  padding-top: 13%;
+  width: 85%;
+  padding-top: 5%;
   padding-bottom: 13%;
   text-align: center;
   font-size: 600%;
@@ -250,7 +250,7 @@ body {
 .temp-container {
   width: 100%;
   padding-top: 5%;
-  padding-bottom: 25vh;
+  /* padding-bottom: 25vh; */
 }
 
 #info {
@@ -405,6 +405,18 @@ label {
     padding-bottom: 3%;
   }
 
+  .animation {
+    transition: all 0.3s ease;
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .code {
+    transition: all 0.3s ease;
+    margin-top: 5%;
+    width: 100%;
+  }
+
   /*
   .bottom-input {
     transition: all 0.3s ease;
@@ -465,9 +477,15 @@ label {
   .user-text {
     padding-top: 45%;
   }
+  .temp-container .out-box{
+    padding-top: 0% !important;
+  }
 }
 
 @media only screen and (max-width: 641px) {
+  .temp-container .sum-div{
+    margin-top: 0% !important;
+  }
   .original-container {
     margin-top: 10px !important;
     padding-top: 80px !important;
@@ -550,7 +568,7 @@ label {
   }
 
   .code {
-    margin-bottom: 10vh;
+    margin-bottom: 3vh;
   }
 }
 
