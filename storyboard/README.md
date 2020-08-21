@@ -8,11 +8,11 @@ An array is a collection of similar types of data. It is a container that holds 
 
 ### 2. Story:
 
-The experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of user, User will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. And this is how the program will give the sum of all array elements.
+This experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of size of array, student will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. And this is how the program will give the sum of all array elements.
 
 #### 2.1 Set the Visual Stage Description:
 
-Simulator starts with the experiment name on the top and show the code in code block. Simulator consist of three blocks, at the left click on NEXT, the simulator asks for size of array. User will have to give size of array and then click on ENTER button after that simulator asks for array elements input from the user. User will have to give array elements and then click on ENTER. After that user will click on ENTER then array elements will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program user will get the sum of array elements and will show in the memory block of the simulator. 
+Simulator starts with the experiment name on the top and show the code in code block. Simulator consist of three blocks, at the left click on NEXT, the simulator asks for size of array. User will have to give size of array and then click on ENTER button after that simulator asks for array elements input from the user. User will have to give array elements and then click on <b>ENTER</b>. After that array elements will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program user will get the sum of array elements and will show in the memory block of the simulator. 
 
 
 #### 2.2 Set User Objectives & Goals:
@@ -30,10 +30,10 @@ Simulator starts with the experiment name on the top and show the code in code b
 2. User click on NEXT.
 3. Code runs. 
 4. User click on NEXT.
-5. Simulatorasks for sixe of array.
-6. User inputs the value and click on ENTETR.
-7. Simulaor asks for the value of array elements.
-8. User inputs the value of array elements and click on SUBMIT.
+5. Simulator asks for size of array.
+6. User inputs the value and click on <b>ENTETR</b>.
+7. Simulator asks for the value of array elements.
+8. User inputs the value of array elements and click on <b>SUBMIT</b>.
 9. The value of num2 will assign to the value of num1.
 10. Array elements will show in the memory block of simulator.
 11. Click on NEXT.
@@ -139,16 +139,12 @@ for(i=0; i<n; i++)<br>
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
+
 <br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
 
 ### 4. Mindmap:
 <img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
-
+<br>
+ 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
