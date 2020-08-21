@@ -100,34 +100,39 @@ function enter() {
   document.getElementById("next-btn").hidden = true;
   N = document.getElementById("inputV1").value.trim();
   if (N == "") {
-    location.reload();
-    alert("Please provide input in N");
+    // location.reload();
+    // alert("Please provide input in N");
+    $(".validation").html("Please provide input in N");
     return;
   }
 
   N = Number(N);
   if (isNaN(N)) {
-    alert("Please provide input in numbers only");
-    location.reload();
+    // alert("Please provide input in numbers only");
+    // location.reload();
+    $(".validation").html("Please provide input in numbers only");
     return;
   }
   // console.log(N);
   if (!Number.isInteger(N)) {
-    alert("Value of N can't be in float enter only positive Integer(max 10).");
-    location.reload();
+    // alert("Value of N can't be in float enter only positive Integer(max 10).");
+    // location.reload();
+    $(".validation").html("Value of N can't be in float enter only positive Integer(max 10).");
     return;
   }
   if (N === 0 || N < 0) {
-    alert("Minimum value of N : 1");
-    location.reload();
+    // alert("Minimum value of N : 1");
+    // location.reload();
+    $(".validation").html("Minimum value of N : 1");
     return;
   }
   if (N > 10) {
-    alert("Maximum limit of N : 10");
-    location.reload();
+    // alert("Maximum limit of N : 10");
+    // location.reload();
+    $(".validation").html("Maximum limit of N : 10");
     return;
   }
-
+  $(".validation").hide();
   Next();
   Next();
   for (var i = 1; i <= N; i++) {
@@ -152,22 +157,25 @@ function enter() {
 // var sum = 0;
 
 function displayElements() {
-
+  $(".validation").hide();
   Next();
   // counting of elements
   for (var i = 1; i <= N; i++) {
     var s = document.getElementById("in" + parseInt(i)).value.trim();
     if (s == "") {
-      location.reload();
-      alert("Please provide inputs in array elements");
+      // location.reload();
+      // alert("Please provide inputs in array elements");
+      $(".validation").html("Please provide inputs in array elements");
       return;
     }
     s = Number(s);
     if (isNaN(s)) {
-      alert("Please provide input in numbers only");
-      location.reload();
+      // alert("Please provide input in numbers only");
+      // location.reload();
+      $(".validation").html("Please provide input in numbers only");
       return;
     }
+    $(".validation").hide();
     document.getElementById("di" + parseInt(i)).hidden = false;
     document.getElementById("di" + parseInt(i)).innerHTML = s;
     Next();
