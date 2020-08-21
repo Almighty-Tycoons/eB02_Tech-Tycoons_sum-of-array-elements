@@ -27,10 +27,10 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>Assign values to array indexes . | Understand | Describe/Recall
-2.| User will be able to: <br>Access values at array indexes. | Apply | Calculate/Identify
-3.| User will be able to: <br>Work with array elements  <br>| Apply | Calculate 
-4.| User will be able to: <br>Apply formula to get sum of array elements. | Applying | Recall/Apply
+1.| User will be able to: <br>Assign values to array indexes . | Understand | Assign
+2.| User will be able to: <br>Identify values at array indexes. | Apply | Identify
+3.| User will be able to: <br>Calculate array elements  <br>| Apply | Calculate 
+4.| User will be able to: <br>Apply formula to get sum of array elements. | Applying | Apply
 
 
 <br/>
