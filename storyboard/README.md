@@ -58,7 +58,7 @@ Q1- Predict output of following program.<br>
 (a) 1 followed by four garbage values <br>
 (b) 1 1 1 1 1 <br>
 <b>(c) 1 0 0 0 0 </b> <br>
-(d) 0 0 0 0 0 <br>
+(d) 0 0 0 0 0 <br><br><br>
 
 Difficuty level: Evaluate<br><br>
 Q2- Does C perform array out of bound checking? What is the output of the following program? <br>
@@ -74,7 +74,7 @@ Q2- Does C perform array out of bound checking? What is the output of the follow
 (a) Compiler Error: Array index out of bound. <br>
 <b>(b) The program may print 0 five times followed by garbage value, or may crash if address (arr+5) is invalid.</b> <br>
 (c) The program always crashes.<br>
-(d) None of them<br>
+(d) None of them<br><br><br>
 
 Difficulty level: Apply<br><br>
 Q3- What does the following declaration mean?<br><br>
@@ -84,7 +84,7 @@ Q3- What does the following declaration mean?<br><br>
 <b>(a)ptr is a pointer to an array of 10 integers</b><br>
 (b) ptr is an array of 10 integers<br>
 (c) ptr is an pointer to array<br>
-(d) ptr is array of pointers to 10 integers<br>
+(d) ptr is array of pointers to 10 integers<br><br><br>
 
 
 Difficulty level: Evaluate<br><br>
@@ -93,7 +93,7 @@ Q4- In C, if you pass an array as an argument to a function, what actually gets 
 <b>(a) First element of the array</b><br>
 (b) Base address of the array<br>
 (c) Value of elements in array<br>
-(d) Address of the last element of array<br>
+(d) Address of the last element of array<br><br><br>
 
 Difficulty level: Apply<br><br>
 Q5-  Predict the output of below program.<br>
@@ -111,7 +111,7 @@ Q5-  Predict the output of below program.<br>
 (a) 2020<br>
 <b>(b) lvalue required</b><br>
 (c) 2004<br>
-(d) None of above<br>
+(d) None of above<br><br><br>
 
 
 ##### 2.5 Allow pitfalls:
