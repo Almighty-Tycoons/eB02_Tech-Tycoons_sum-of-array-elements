@@ -86,6 +86,6 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
 1.| Student will start the simulator  | Simulator will ask number of index that student wants  |In C programming we have to define size of array at initial point so always ask number of indexes that student needs.
-2.| Student will input number of indexes | Simulator will show input boxes for student to enter values on indexes  | Describe the purpose in detail.
-3.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-4.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+2.| Student will input number of indexes<br>then press <b>OK</b> | Simulator will show input boxes for student to enter values on indexes  | Since the size of array is large so to make sure student should not confuse only the number of text boxes will be shown.
+3.| Student will input values to textboxes<br> then press <b>OK</b> | Simulator will start executing and store values to the indexes they are assigned  |In array address are continuous so this step visualise this concept.
+4.| Student will <br> press <b>next</b>button until the program termintes | Simulator will execute each line one by one and print the output.  |Every student gets the logic but they are confused how these things actually work so we visualize the entire process which makes learning smoother.
