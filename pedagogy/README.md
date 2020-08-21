@@ -3,13 +3,13 @@
 
 <br>
 <br>
-<b> Experiment ABCDEF Lab  <a name="top"></a> <br>
+<b> Write a program to sum of array elements Lab  <a name="top"></a> <br>
 </p>
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Programming for problem sovling lab
-<b> Experiment|     <b> 2. Write a program that simply takes elements of the array from user and finds the sum of these elements.
+<b> Experiment|     <b> 3. Write a program to sum of array elements
 
 
 <h4> [1. Focus Area](#LO)
@@ -88,4 +88,4 @@ Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 1.| Student will start the simulator  | Simulator will ask number of index that student wants  |In C programming we have to define size of array at initial point so always ask number of indexes that student needs.
 2.| Student will input number of indexes<br>then press <b>OK</b> | Simulator will show input boxes for student to enter values on indexes  | Since the size of array is large so to make sure student should not confuse only the number of text boxes will be shown.
 3.| Student will input values to textboxes<br> then press <b>OK</b> | Simulator will start executing and store values to the indexes they are assigned  |In array address are continuous so this step visualise this concept.
-4.| Student will <br> press <b>next</b>button until the program termintes | Simulator will execute each line one by one and print the output.  |Every student gets the logic but they are confused how these things actually work so we visualize the entire process which makes learning smoother.
+4.| Student will <br> press <b>next</b> button until the program termintes | Simulator will execute each line one by one and print the output.  |Every student gets the logic but they are confused how these things actually work so we visualize the entire process which makes learning smoother.
