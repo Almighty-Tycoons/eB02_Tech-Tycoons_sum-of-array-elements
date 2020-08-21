@@ -44,7 +44,7 @@ Simulator starts with the experiment name on the top and show the code in code b
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
 
-Difficuty level: Evaluate<br>
+Difficuty level: Evaluate<br><br>
 Q1- Predict output of following program.<br>
              int main()<br>
                 {<br>
@@ -60,7 +60,7 @@ Q1- Predict output of following program.<br>
 <b>(c) 1 0 0 0 0 </b> <br>
 (d) 0 0 0 0 0 <br>
 
-Difficuty level: Evaluate<br>
+Difficuty level: Evaluate<br><br>
 Q2- Does C perform array out of bound checking? What is the output of the following program? <br>
                               int main()<br>
                                 {<br>
@@ -76,7 +76,7 @@ Q2- Does C perform array out of bound checking? What is the output of the follow
 (c) The program always crashes.<br>
 (d) None of them<br>
 
-Difficulty level: Apply<br>
+Difficulty level: Apply<br><br>
 Q3- What does the following declaration mean?<br><br>
         int (*ptr)[10];
         <br> 
@@ -87,7 +87,7 @@ Q3- What does the following declaration mean?<br><br>
 (d) ptr is array of pointers to 10 integers<br>
 
 
-Difficulty level: Evaluate<br>
+Difficulty level: Evaluate<br><br>
 Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?
 <br><br>
 <b>(a) First element of the array</b><br>
@@ -95,7 +95,7 @@ Q4- In C, if you pass an array as an argument to a function, what actually gets 
 (c) Value of elements in array<br>
 (d) Address of the last element of array<br>
 
-Difficulty level: Apply<br>
+Difficulty level: Apply<br><br>
 Q5-  Predict the output of below program.<br>
             #include <stdio.h><br> 
             int main()<br>
