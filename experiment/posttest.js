@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "Choose the correct option to assing 1 or more elements in array at once in C?",  ///// Write the question inside double quotes
       answers: {
         a: "Option 1",                  ///// Write the option 1 inside double quotes
         b: "Option 2",                  ///// Write the option 2 inside double quotes

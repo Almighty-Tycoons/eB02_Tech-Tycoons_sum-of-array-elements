@@ -4,7 +4,7 @@
 
 /////////////////////////////////////////////////////////////////////////////
 
-(function() {
+(function () {
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -72,46 +72,80 @@
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
- 
-
-/////////////////////////////////////////////////////////////////////////////
-
-/////////////////////// Do not modify the above code ////////////////////////
-
-/////////////////////////////////////////////////////////////////////////////
 
 
+  /////////////////////////////////////////////////////////////////////////////
+
+  /////////////////////// Do not modify the above code ////////////////////////
+
+  /////////////////////////////////////////////////////////////////////////////
 
 
 
 
-/////////////// Write the MCQ below in the exactly same described format ///////////////
+
+
+  /////////////// Write the MCQ below in the exactly same described format ///////////////
 
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "Which one is the correct initialization of Array in C?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "int[] a;",                  ///// Write the option 1 inside double quotes
+        b: "int a[2] = {1,2}",                  ///// Write the option 2 inside double quotes
+        c: "int a[]",                  ///// Write the option 3 inside double quotes
+        d: "int[2] a = {1,2};"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Which datatype is required to initialize an Array in C?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "int",                  ///// Write the option 1 inside double quotes
+        b: "float",                  ///// Write the option 2 inside double quotes
+        c: "String",                  ///// Write the option 3 inside double quotes
+        d: "any"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
-    									                  ///// this line
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
+    },                                  ///// To add more questions, copy the section below ///// this line
 
+
+    {
+      question: "Can we leave '[]' blank while initializing Array in C?",  
+      answers: {
+        a: "Yes",                 
+        b: "No",                
+        c: "both(a,b)",                 
+        d: "None of the above"                  
+      },
+      correctAnswer: "c"               
+    },
+
+
+    {
+      question: "Choose the correct option to get the first element of an Array in C?",  
+      answers: {
+        a: "a[0];",                 
+        b: "a[]1;",                  
+        c: "a[-1];",                  
+        d: "a[1];"                  
+      },
+      correctAnswer: "a"          
+    },
+
+
+    {
+      question: "Choose the correct option to add first and second element of an Array in C?",  
+      answers: {
+        a: "a[1+2];",                 
+        b: "a[0+1];",                  
+        c: "a[] = {0+1};",                  
+        d: "a[0]+a[1];"                  
+      },
+      correctAnswer: "d"          
+    },
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
         till closing curly braces comma ( }, )
@@ -144,11 +178,11 @@
 
 
 
-/////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////// Do not modify the below code ////////////////////////
+  /////////////////////// Do not modify the below code ////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////
 
 
   // display quiz right away
