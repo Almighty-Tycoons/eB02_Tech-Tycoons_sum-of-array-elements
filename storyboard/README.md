@@ -8,11 +8,11 @@ An array is a collection of similar types of data. It is a container that holds 
 
 ### 2. Story:
 
-The experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of user, User will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. And this is how the program will give the sum of all array elements.
+This experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of size of array, student will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. And this is how the program will give the sum of all array elements.
 
 #### 2.1 Set the Visual Stage Description:
 
-Simulator starts with the experiment name on the top and show the code in code block. Simulator consist of three blocks, at the left click on NEXT, the simulator asks for size of array. User will have to give size of array and then click on ENTER button after that simulator asks for array elements input from the user. User will have to give array elements and then click on ENTER. After that user will click on ENTER then array elements will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program user will get the sum of array elements and will show in the memory block of the simulator. 
+Simulator starts with the experiment name on the top and show the code in code block. Simulator consist of three blocks, at the left click on NEXT, the simulator asks for size of array. User will have to give size of array and then click on ENTER button after that simulator asks for array elements input from the user. User will have to give array elements and then click on <b>ENTER</b>. After that array elements will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program user will get the sum of array elements and will show in the memory block of the simulator. 
 
 
 #### 2.2 Set User Objectives & Goals:
@@ -30,10 +30,10 @@ Simulator starts with the experiment name on the top and show the code in code b
 2. User click on NEXT.
 3. Code runs. 
 4. User click on NEXT.
-5. Simulatorasks for sixe of array.
-6. User inputs the value and click on ENTETR.
-7. Simulaor asks for the value of array elements.
-8. User inputs the value of array elements and click on SUBMIT.
+5. Simulator asks for size of array.
+6. User inputs the value and click on <b>ENTETR</b>.
+7. Simulator asks for the value of array elements.
+8. User inputs the value of array elements and click on <b>SUBMIT</b>.
 9. The value of num2 will assign to the value of num1.
 10. Array elements will show in the memory block of simulator.
 11. Click on NEXT.
@@ -44,7 +44,7 @@ Simulator starts with the experiment name on the top and show the code in code b
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
 
-Difficuty level: Evaluate<br>
+Difficuty level: Evaluate<br><br>
 Q1- Predict output of following program.<br>
              int main()<br>
                 {<br>
@@ -58,9 +58,9 @@ Q1- Predict output of following program.<br>
 (a) 1 followed by four garbage values <br>
 (b) 1 1 1 1 1 <br>
 <b>(c) 1 0 0 0 0 </b> <br>
-(d) 0 0 0 0 0 <br>
+(d) 0 0 0 0 0 <br><br><br>
 
-Difficuty level: Evaluate<br>
+Difficuty level: Evaluate<br><br>
 Q2- Does C perform array out of bound checking? What is the output of the following program? <br>
                               int main()<br>
                                 {<br>
@@ -74,26 +74,28 @@ Q2- Does C perform array out of bound checking? What is the output of the follow
 (a) Compiler Error: Array index out of bound. <br>
 <b>(b) The program may print 0 five times followed by garbage value, or may crash if address (arr+5) is invalid.</b> <br>
 (c) The program always crashes.<br>
-(d) None of them<br>
+(d) None of them<br><br><br>
 
-Difficulty level: Apply<br>
+Difficulty level: Apply<br><br>
 Q3- What does the following declaration mean?<br><br>
-        int (*ptr)[10];<br> 
+        int (*ptr)[10];
+        <br> 
 
 <b>(a)ptr is a pointer to an array of 10 integers</b><br>
 (b) ptr is an array of 10 integers<br>
 (c) ptr is an pointer to array<br>
-(d) ptr is array of pointers to 10 integers<br>
+(d) ptr is array of pointers to 10 integers<br><br><br>
 
 
-Difficulty level: Evaluate<br>
-Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?<br>
+Difficulty level: Evaluate<br><br>
+Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?
+<br><br>
 <b>(a) First element of the array</b><br>
 (b) Base address of the array<br>
 (c) Value of elements in array<br>
-(d) Address of the last element of array<br>
+(d) Address of the last element of array<br><br><br>
 
-Difficulty level: Apply<br>
+Difficulty level: Apply<br><br>
 Q5-  Predict the output of below program.<br>
             #include <stdio.h><br> 
             int main()<br>
@@ -104,11 +106,12 @@ Q5-  Predict the output of below program.<br>
             arr++;  <br>
             printf("%u", arr);  <br>
             return 0; <br>
-            }  <br>
+            }  
+            <br>
 (a) 2020<br>
 <b>(b) lvalue required</b><br>
 (c) 2004<br>
-(d) None of above<br>
+(d) None of above<br><br><br>
 
 
 ##### 2.5 Allow pitfalls:
@@ -132,23 +135,20 @@ printf("Input %d elements in the array :\n",n);<br>
       printf("element - %d : ",i); <br>
        scanf("%d",&a[i]); <br>
        } <br>
-for(i=0; i<n; i++)<br>
+for(i=0; i<n; i++) <br>
    { <br>
       sum += a[i]; <br>
    }<br>
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
+
 <br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
 
 ### 4. Mindmap:
 <img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
-
+<br>
+ 
 ### 5. Storyboard :
 <img src="images/1.png"><br>
 <img src="images/2.png"><br>
