@@ -78,7 +78,8 @@ Q2- Does C perform array out of bound checking? What is the output of the follow
 
 Difficulty level: Apply<br>
 Q3- What does the following declaration mean?<br><br>
-        int (*ptr)[10];<br> 
+        int (*ptr)[10];
+        <br> 
 
 <b>(a)ptr is a pointer to an array of 10 integers</b><br>
 (b) ptr is an array of 10 integers<br>
@@ -87,7 +88,8 @@ Q3- What does the following declaration mean?<br><br>
 
 
 Difficulty level: Evaluate<br>
-Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?<br>
+Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?
+<br><br>
 <b>(a) First element of the array</b><br>
 (b) Base address of the array<br>
 (c) Value of elements in array<br>
@@ -104,7 +106,8 @@ Q5-  Predict the output of below program.<br>
             arr++;  <br>
             printf("%u", arr);  <br>
             return 0; <br>
-            }  <br>
+            }  
+            <br>
 (a) 2020<br>
 <b>(b) lvalue required</b><br>
 (c) 2004<br>
