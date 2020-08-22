@@ -28,7 +28,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>Describe array . | Remember | Describe
 2.| User will be able to: <br>Recall to assign values to array indexes . | Remember | Recall
-3.| User will be able to: <br>Apply cocnept of for loop | Apply | Apply
+3.| User will be able to: <br>Apply concept of for loop | Apply | Apply
 4.| User will be able to: <br>Apply formula to get the sum of the array elements. | Apply | Apply
 
 
@@ -64,7 +64,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| User will be able to: <br>Describe array | User will declare <br>array indexes  | Q.1-An array index starts with.?<br> A) -1 <br><b>B) 0 </b><br> C) 1 <br> D) 2
-2.| User will be able to: <br>Assign values to array indexes . |User will input <br> values at every index | Q.1- Correct declarartion of the array is?<br> A) data_type array_name[int];<br><b>B) data_type array_name[size]; </b><br> C) 10 a[int]; <br> D) array_name[subscript];
+2.| User will be able to: <br>Recall to assign values to array indexes |User will input <br> values at every index | Q.1- Correct declarartion of the array is?<br> A) data_type array_name[int];<br><b>B) data_type array_name[size]; </b><br> C) 10 a[int]; <br> D) array_name[subscript];
 3.| User will be able to <br> understand concept of for loop | User will perceive<br>Through entire program  | Q.1 -Choose a correct C statement regarding for loop.<br> <b>A) for( ; ; )</b><br>B) for( ); </b><br> C) for(int:condition:i++) <br> D) None of these 
 4.| User will be able to <br>Apply formula to get the sum of the array elements.| User will apply<br> formula to find sum of array elements| Q.1- What will be the sum of array elements of the following array? <br>int[] ar = {2, 4, 6, 8 } <br> A) -20 <br><b>B) 20 </b><br> C) 18 <br> D) 19
 
