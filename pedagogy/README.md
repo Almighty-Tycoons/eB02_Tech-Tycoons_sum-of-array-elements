@@ -61,12 +61,12 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 Read the theory and comprehend the concepts related to the experiment. [LO1, LO2, LO3]
 <br>
 
-Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
+Sr. No |	Learning Objective	| Task to be performed by <br> the student in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| User will be able to: <br>Describe array | Student will declare <br>array indexes  | Q.1 An array Index starts with.?<br> A) -1 <br><b>B) 0 </b><br> C) 1 <br> D) 2
 2.| User will be able to: <br>Assign values to array indexes . |Student will input <br> values at every index | Q.2- correct declarartion of the array is?<br> A) data_type array_name[int];<br><b>B) data_type array_name[size]; </b><br> C) 10 a[int]; <br> D) array_name[subscript];
-3.| Student will be able to <br> understand concept of loop | Student will perform<br>same step until the loop ends. | Q.3 Choose a correct C Statement regarding for loop.<br>for(; ;);<br> A) for loop works exactly first time <br> <b> B) for loop works infinite number of times </b><br> C) Compiler error <br> D) None of the above
-4.| Student will be able to <br> understand the concept of array | Student will perform <br> diffrent cases to explore his/her knowledge | Q4. What is an array Base Address in C language.? <br> A) Base address is the address of 0th index element. <br> B) An array b[ ] base address is &amp;b[0] <br> C) An array b[ ] base address can be printed with printf("%d", b); <br> <b> D) All the above </b>
+3.| User will be able to <br> understand concept of for loop | Student will perform<br>same step until the loop ends. | Q.3 Choose a correct C Statement regarding for loop.<br>for(; ;);<br> A) for loop works exactly first time <br> <b> B) for loop works infinite number of times </b><br> C) Compiler error <br> D) None of the above
+4.| User will be able to <br>Apply formula to get the sum of the array elements.| Student will apply<br> formula to find sum of array elements| Q4. What will be the sum of array elements of the following array? int[] ar = {2, 4, 6, 8 } A) -20 <br><b>B) 20 </b><br> C) 18 <br> D) None of them
 
  <br>
 
