@@ -27,7 +27,7 @@
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>Describe array . | Remember | Describe
-2.| User will be able to: <br>Assign values to array indexes . | Understand | Assign
+2.| User will be able to: <br>Recall to assign values to array indexes . | Understand | Recall
 3.| User will be able to: <br>Apply cocnept of for loop | Apply | Apply
 4.| User will be able to: <br>Apply formula to get the sum of the array elements. | Apply | Apply
 
