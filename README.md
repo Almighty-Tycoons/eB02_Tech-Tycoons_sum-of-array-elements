@@ -10,7 +10,7 @@ In this laboratory, the students will learn to enforce theoretical concepts of C
 In this experiment, user will have to enter the size of array and input the array elements. After entering values of array indexes, simulator will start to add every element of array. During experiment simulator will show visual effect of addition to the user. At completion of execution of program user will get the sum of array elements.  
 <h5> Target Audience : </h5>
 
- students and faculties / B.tech 1st year students.
+ Students and Faculties / B.tech 1st year students.
 
 <h5> Course Alignment : </h5>
 
