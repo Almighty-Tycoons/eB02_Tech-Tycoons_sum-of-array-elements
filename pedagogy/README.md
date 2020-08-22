@@ -26,7 +26,7 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>Define array . | Remember | Define
+1.| User will be able to: <br>Describe array . | Remember | Describe
 2.| User will be able to: <br>Assign values to array indexes . | Understand | Assign
 3.| User will be able to: <br>Identify values at array indexes. | Apply | Identify
 4.| User will be able to: <br>Apply formula to get the sum of the array elements. | Apply | Apply
@@ -63,7 +63,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| User will be able to: <br>Define array | Student will define <br>index and values at every index | Q.1 An array Index starts with.?<br> A) -1 <br><b>B) 0 </b><br> C) 1 <br> D) 2
+1.| User will be able to: <br>Declare array | Student will define <br>index and values at every index | Q.1 An array Index starts with.?<br> A) -1 <br><b>B) 0 </b><br> C) 1 <br> D) 2
 2.| Student will be able to <br> understand cocept of loops | Student will perform<br>same step until the loop ends. | Q.2 Choose a correct C Statement regarding for loop.<br>for(; ;);<br> A) for loop works exactly first time <br> <b> B) for loop works infinite number of times </b><br> C) Compiler error <br> D) None of the above
 3.| Student will be able to <br> understand the concept of array | Student will perform <br> diffrent cases to explore his/her knowledge | Q3. What is an array Base Address in C language.? <br> A) Base address is the address of 0th index element. <br> B) An array b[ ] base address is &amp;b[0] <br> C) An array b[ ] base address can be printed with printf("%d", b); <br> <b> D) All the above </b>
 
