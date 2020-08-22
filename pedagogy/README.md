@@ -45,7 +45,9 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Assessment Method: Formative assessment 
 
 <u> <b>Description: </b>
-    During the experiment, student will perceive at which memory block which value exists. It means student is familiar with the changes in the values of the variables, and all the results will be known to the student during experiment, so it is a case of expository instructional strategy.
+    During the experiment, student knows which value is greatest among three numbers before excution of the program. After execution of the program user expects some predefined result. Therefore, it is a case of expository instructional strategy.
+
+
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
