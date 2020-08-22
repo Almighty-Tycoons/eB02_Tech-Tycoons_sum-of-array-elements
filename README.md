@@ -7,7 +7,7 @@
 <h5> About the Lab (Objective) : </h5>
 In this laboratory, the students will learn to enforce theoretical concepts of C programming language for finding a solution to a problem. Specifically, for the problem that  takes elements of array from the user and finds the sum of these elements
 <h5> About the Experiment : </h5>
-In this experiment, user will have to enter the size of array and input the array elements. After entering values of array indexes, simulator will start to add every element of array.During experiment simulator will show visual effect of addition to the user. At completion of execution of program user will get the sum of array element.  
+In this experiment, user will have to enter the size of array and input the array elements. After entering values of array indexes, simulator will start to add every element of array. During experiment simulator will show visual effect of addition to the user. At completion of execution of program user will get the sum of array elements.  
 <h5> Target Audience : </h5>
 
  students and faculties / B.tech 1st year students.
