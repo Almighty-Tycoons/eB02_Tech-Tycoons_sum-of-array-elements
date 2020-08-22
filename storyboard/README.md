@@ -96,8 +96,8 @@ Q4- In C, if you pass an array as an argument to a function, what actually gets 
 (d) Address of the last element of array<br><br><br>
 
 Difficulty level: Apply<br><br>
-Q5- What is the output of the following code fragment:
-int[] ar = {2, 4, 6, 8 };
+Q5- What is the output of the following code fragment:<br>
+int[] ar = {2, 4, 6, 8 };<br>
 System.out.println( ar[0] + " " + ar[1] );
 <br><br>
 (a) 2 6<br>
