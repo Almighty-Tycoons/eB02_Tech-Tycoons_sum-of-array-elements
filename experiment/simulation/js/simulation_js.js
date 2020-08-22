@@ -347,6 +347,7 @@ function Execution() {
                         document.getElementById("re").hidden = false;
                         document.getElementById("re").innerHTML = "sum";
                         changeClass("temp-container", "result");
+                        $(".sum-container").hide();
                         finish = 1;
                       }
                     }

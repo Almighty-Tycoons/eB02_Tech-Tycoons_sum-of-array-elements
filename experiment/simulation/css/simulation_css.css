@@ -20,29 +20,25 @@
   font-weight: bold;
 }
 
-.temp-container .sum-div {
-  align-items: center;
-  width: 30%;
-  margin-left: 35%;
-  margin-top: 40%;
-}
-
 .result {
   margin: 6% !important;
   color: #000;
   background-color: #fddb3a;
   width: 85%;
-  padding-top: 5%;
-  padding-bottom: 13%;
+  padding-top: 12%;
+  padding-bottom: 12%;
+  height: 33vh;
   text-align: center;
-  font-size: 600%;
-  margin-left: 10%;
+  font-size: 100px;
+  margin-left: 7.5% !important;
   float: left;
+  transition: all 0.3s ease;
 }
 
 .re {
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 3vh;
+  text-align: center;
+  color: #fff;
 }
 
 .fil {
@@ -50,7 +46,7 @@
 }
 
 h4 {
-  color: #fddb3a;
+  color: #fff;
 }
 
 hr {
@@ -249,7 +245,8 @@ body {
 
 .temp-container {
   width: 100%;
-  padding-top: 5%;
+  height: fit-content;
+  padding-top: 2.5vh;
   /* padding-bottom: 25vh; */
 }
 
@@ -265,24 +262,32 @@ body {
   margin-top: 4vh;
 }
 
+.out-box .box {
+  border: 2px solid #212121;
+  height: 18vh;
+  width: 13vw;
+  text-align: center;
+}
 .box {
   border: 2px solid #212121;
-  min-height: 13vh;
+  height: 18vh;
   text-align: center;
 }
 
-.original-container .out-box, .temp-container .out-box {
+.temp-container .out-box {
   float: left;
-  width: 35%;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10%
-}
-
-.original-container .sum-box, .temp-container .sum-box {
-  width: 35%;
+  width: 50%;
   padding-left: 12%;
-  padding-top: 40%
+  padding-right: 10%;
+  padding-top: 2%
+}
+.sum-container{
+  width: 100%;
+  margin-top: 22vh;
+}
+.sum-box {
+  width: 26vw;
+  padding-left: 13vw;
 }
 
 .symbol pre {
@@ -344,7 +349,7 @@ label {
 
 .user-text {
   color: #fff;
-  padding-top: 3vh;
+  padding-top: 5.8vh;
 }
 
 .bottom-input {
@@ -463,8 +468,7 @@ label {
   .temp-container {
     padding-bottom: 15vh;
   }
-
-  .original-container .out-box, .temp-container .out-box {
+.temp-container .out-box {
     padding-left: 6%;
     padding-right: 3%;
   }
@@ -479,6 +483,25 @@ label {
   }
   .temp-container .out-box{
     padding-top: 0% !important;
+  }
+
+  .out-box .box{
+    width: 30vw;
+  }
+  .sum-container{
+    margin-top: 10vh;
+  }
+  .user-text{
+    padding-top: 5.5vh;
+  }
+  .sum-box {
+    width: 52vw;
+    padding-left: 23vw;
+  }
+  .animation{
+    min-height: 77vh;
+    max-height: 77vh;
+    margin-bottom: 2%;
   }
 }
 
@@ -564,12 +587,13 @@ label {
   }
 
   .user-text {
-    padding-top: 7vh;
+    padding-top: 5.6vh;
   }
 
   .code {
     margin-bottom: 3vh;
   }
+
 }
 
 /* for js */
