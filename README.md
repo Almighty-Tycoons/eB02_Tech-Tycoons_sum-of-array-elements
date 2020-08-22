@@ -5,7 +5,7 @@
 <b> Lab | <b> Programming for Problem Solving Lab
 <b> Experiment|     <b> 3. Write a program that simply takes elements of array from the user and finds the sum of these elements.
 <h5> About the Lab (Objective) : </h5>
-In this laboratory, the students will learn to enforce theoretical concepts of C programming language for finding a solution to a problem. Specifically, for the problem of mutually exchanging values of two variables of the same data type.
+In this laboratory, the students will learn to enforce theoretical concepts of C programming language for finding a solution to a problem. Specifically, for the problem that  takes elements of array from the user and finds the sum of these elements
 <h5> About the Experiment : </h5>
 An array is a collection of similar types of data. It is a container that holds data (values) of one single type.
  user will learn how to define array and give input to find the sum of all the elements of array using C programming language.
