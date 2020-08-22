@@ -65,7 +65,16 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student in the si
 :--|:--|:--|:-:
 1.| User will be able to: <br>Describe array | Student will declare <br>array indexes  | Q.1-An array Index starts with.?<br> A) -1 <br><b>B) 0 </b><br> C) 1 <br> D) 2
 2.| User will be able to: <br>Assign values to array indexes . |Student will input <br> values at every index | Q.1- correct declarartion of the array is?<br> A) data_type array_name[int];<br><b>B) data_type array_name[size]; </b><br> C) 10 a[int]; <br> D) array_name[subscript];
-3.| User will be able to <br> understand concept of for loop | Student will perform<br>same step until the loop ends. | Q.1 -Choose a correct C Statement regarding for loop.<br>for(; ;);<br> A) for loop works exactly first time <br> <b> B) for loop works infinite number of times </b><br> C) Compiler error <br> D) None of the above
+3.| User will be able to <br> understand concept of for loop | Student will perform<br>same step until the loop ends. | Q.1 -Choose a correct C Statement regarding for loop.<br> <b>A) for(initalization; condition; incrementoperation)
+{
+    //statements
+}<br></b>B) for(declaration; condition; incrementoperation)
+{
+    //statements
+}<br> C) for(value; condition; initialization)
+{
+    //statements
+ }<br>D) None of the above
 4.| User will be able to <br>Apply formula to get the sum of the array elements.| Student will apply<br> formula to find sum of array elements| Q.1- What will be the sum of array elements of the following array? <br>int[] ar = {2, 4, 6, 8 } <br> A) -20 <br><b>B) 20 </b><br> C) 18 <br> D) 19
 
  <br>
