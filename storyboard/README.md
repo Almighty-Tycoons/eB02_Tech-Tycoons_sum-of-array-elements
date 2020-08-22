@@ -96,28 +96,20 @@ Q4- In C, if you pass an array as an argument to a function, what actually gets 
 (d) Address of the last element of array<br><br><br>
 
 Difficulty level: Apply<br><br>
-Q5-  Predict the output of below program.<br>
-            #include <stdio.h><br> 
-            int main()<br>
-               { <br>
-            int arr[5];<br>
-            // Assume that base address of arr is 2000 and size of integer <br>
-            // is 32 bit  <br>
-            arr++;  <br>
-            printf("%u", arr);  <br>
-            return 0; <br>
-            }  
-            <br>
-(a) 2020<br>
-<b>(b) lvalue required</b><br>
-(c) 2004<br>
-(d) None of above<br><br><br>
+Q5-  3. What is the output of the following code fragment:
+int[] ar = {2, 4, 6, 8 };
+System.out.println( ar[0] + " " + ar[1] );
+<br><br>
+(a) 2 6<br>
+<b>(b)2 4</b><br>
+(c) 8<br>
+(d) 6 8<br><br><br>
 
 
 ##### 2.5 Allow pitfalls:
 
 There are pitfalls in the simulator, mentioned below:
-1. program will not perform if user will give more than 10 number in size of array.
+1. Program will not perform if user will give more than 10 number in size of array.
 2. User will get an "please provide inputs" message if user presses enter without giving input.
 3. User will get an error message if user enter string(alphabets or symbols) input.
 4. User should not enter less than size of array.
@@ -140,7 +132,7 @@ for(i=0; i<n; i++) <br>
       sum += a[i]; <br>
    }<br>
 
-### 3. Flowchart 4
+### 3. Flowchart 
 <img src="flowchart/flowchart.png"/><br>
 
 <br>
