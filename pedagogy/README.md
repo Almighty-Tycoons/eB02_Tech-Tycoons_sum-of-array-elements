@@ -3,13 +3,12 @@
 
 <br>
 <br>
-<b> Write a program to sum of array elements Lab  <a name="top"></a> <br>
 </p>
 
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Programming for problem sovling lab
-<b> Experiment|     <b> 3. Write a program to sum of array elements
+<b> Experiment|     <b> 3.  Write a program that simply takes elements of array from the user and finds the sum of these elements.
 
 
 <h4> [1. Focus Area](#LO)
@@ -27,10 +26,10 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>Assign values to array indexes . | Understand | Assign
-2.| User will be able to: <br>Identify values at array indexes. | Apply | Identify
-3.| User will be able to: <br>Calculate array elements  <br>| Apply | Calculate 
-4.| User will be able to: <br>Apply formula to get sum of array elements. | Applying | Apply
+1.| User will be able to: <br>Define array . | Remember | Define
+2.| User will be able to: <br>Assign values to array indexes . | Understand | Assign
+3.| User will be able to: <br>Identify values at array indexes. | Apply | Identify
+4.| User will be able to: <br>Apply formula to get the sum of the array elements. | Applying | Apply
 
 
 <br/>
