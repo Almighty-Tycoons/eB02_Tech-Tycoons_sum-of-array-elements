@@ -81,7 +81,7 @@ Q3- What does the following declaration mean?<br><br>
         int (*ptr)[10];
         <br> 
 
-<b>(a)ptr is a pointer to an array of 10 integers</b><br>
+<b>(a) ptr is a pointer to an array of 10 integers</b><br>
 (b) ptr is an array of 10 integers<br>
 (c) ptr is an pointer to array<br>
 (d) ptr is array of pointers to 10 integers<br><br><br>
@@ -96,7 +96,7 @@ Q4- In C, if you pass an array as an argument to a function, what actually gets 
 (d) Address of the last element of array<br><br><br>
 
 Difficulty level: Apply<br><br>
-Q5-  3. What is the output of the following code fragment:
+Q5- What is the output of the following code fragment:
 int[] ar = {2, 4, 6, 8 };
 System.out.println( ar[0] + " " + ar[1] );
 <br><br>
