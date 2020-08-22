@@ -90,59 +90,59 @@
 
   const myQuestions = [
     {
-      question: "Which one is the correct initialization of Array in C?",  ///// Write the question inside double quotes
+      question: "What is an Array in C language.?",  ///// Write the question inside double quotes
       answers: {
-        a: "int[] a;",                  ///// Write the option 1 inside double quotes
-        b: "int a[2] = {1,2}",                  ///// Write the option 2 inside double quotes
-        c: "int a[]",                  ///// Write the option 3 inside double quotes
-        d: "int[2] a = {1,2};"                   ///// Write the option 4 inside double quotes
+        a: "A group of elements of same data type.",                  ///// Write the option 1 inside double quotes
+        b: "An array contains more than one element",                  ///// Write the option 2 inside double quotes
+        c: "Array elements are stored in memory in continuous or contiguous locations.",                  ///// Write the option 3 inside double quotes
+        d: "All the above."                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "Which datatype is required to initialize an Array in C?",  ///// Write the question inside double quotes
+      question: "Choose a correct statement about C language arrays.",  ///// Write the question inside double quotes
       answers: {
-        a: "int",                  ///// Write the option 1 inside double quotes
-        b: "float",                  ///// Write the option 2 inside double quotes
-        c: "String",                  ///// Write the option 3 inside double quotes
-        d: "any"                   ///// Write the option 4 inside double quotes
+        a: "An array address is the address of first element of array itself.",                  ///// Write the option 1 inside double quotes
+        b: "An array size must be declared if not initialized immediately.",                  ///// Write the option 2 inside double quotes
+        c: "Array size is the sum of sizes of all elements of the array.",                  ///// Write the option 3 inside double quotes
+        d: "All the above"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below ///// this line
 
 
     {
-      question: "Can we leave '[]' blank while initializing Array in C?",  
+      question: "What are the Types of Arrays.?",  
       answers: {
-        a: "Yes",                 
-        b: "No",                
-        c: "both(a,b)",                 
-        d: "None of the above"                  
+        a: "int, long, float, double",                 
+        b: "struct, enum",                
+        c: "char",                 
+        d: "All the above"                  
       },
-      correctAnswer: "c"               
+      correctAnswer: "d"               
     },
 
 
     {
-      question: "Choose the correct option to get the first element of an Array in C?",  
+      question: "An array Index starts with.?",  
       answers: {
-        a: "a[0];",                 
-        b: "a[]1;",                  
-        c: "a[-1];",                  
-        d: "a[1];"                  
+        a: "-1",                 
+        b: "0",                  
+        c: "1",                  
+        d: "2"                  
       },
-      correctAnswer: "a"          
+      correctAnswer: "b"          
     },
 
 
     {
-      question: "Choose the correct option to add first and second element of an Array in C?",  
+      question: "Choose a correct statement about C language arrays.",  
       answers: {
-        a: "a[1+2];",                 
-        b: "a[0+1];",                  
-        c: "a[] = {0+1};",                  
-        d: "a[0]+a[1];"                  
+        a: "An array size can not changed once it is created.",                 
+        b: "Array element value can be changed any number of times",                  
+        c: "To access Nth element of an array students, use students[n-1] as the starting index is 0.",                  
+        d: "All the above"                  
       },
       correctAnswer: "d"          
     },
