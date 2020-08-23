@@ -101,7 +101,7 @@
     },
 
     {
-      question: "What does the following declaration mean? <br>'int (*ptr)[10];'",  ///// Write the question inside double quotes
+      question: "What does the following declaration mean? <br>' int (*ptr)[10]; '",  ///// Write the question inside double quotes
       answers: {
         a: "ptr is a pointer to an array of 10 integers",                  ///// Write the option 1 inside double quotes
         b: "ptr is an array of 10 integers",                  ///// Write the option 2 inside double quotes
