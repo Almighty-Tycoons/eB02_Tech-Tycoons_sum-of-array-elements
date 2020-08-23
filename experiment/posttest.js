@@ -135,14 +135,14 @@
     },
 
     {
-      question: "Predict the output of below program.<br>#include <stdio.h><br> int main()<br>   { <br>int arr[5];<br>// Assume that base address of arr is 2000 and size of integer <br>// is 32 bit  <br>arr++;  <br>printf('%u', arr);  <br>return 0; <br>}  <br>",
+      question: "Predict the output of below program.<br>#include <stdio.h><br> int main()<br> { <br>int arr[5];<br>arr[0]=2;  <br>printf('%d', arr[0]+5);  <br>return 0; <br>}",
       answers: {
-        a: "2020",
-        b: "lvalue required",
-        c: "2004",
+        a: "20",
+        b: "2",
+        c: "7",
         d: "None of above"
       },
-      correctAnswer: "b"
+      correctAnswer: "c"
     },
 
 
