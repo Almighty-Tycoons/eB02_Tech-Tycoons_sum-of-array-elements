@@ -8,8 +8,7 @@ An array is a collection of similar types of data. It is a container that holds 
 
 ### 2. Story:
 
-This experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of size of array, student will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. And this is how the program will give the sum of all array elements.
-
+This experiment is based on takes elements of array from user and sum of all those elements. The experiment will start by the input of size of array, student will have to give elements of array as a input. And the program will add those elements to array and after that user will find the sum of all those array elements at the execution of program. During experiment simulator will show visual effect of addition to the user. At completion of execution of program user will get the sum of array elements.
 #### 2.1 Set the Visual Stage Description:
 
 Simulator starts with the experiment name on the top and show the code in code block. Simulator consist of three blocks, at the left click on NEXT, the simulator asks for size of array. User will have to give size of array and then click on ENTER button after that simulator asks for array elements input from the user. User will have to give array elements and then click on <b>ENTER</b>. After that array elements will show in the memory block of the simulator. And then the user will have to press next until the program finishes. At the execution of the program user will get the sum of array elements and will show in the memory block of the simulator. 
