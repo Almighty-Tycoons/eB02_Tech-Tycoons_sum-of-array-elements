@@ -1,7 +1,7 @@
 ## <b> Pre-test
 #### Please attempt the following questions</b>
 
-1) What is an Array in C language.?<br>
+1) What is an Array in C language?<br>
 A) A group of elements of same data type.<br>
 B) An array contains more than one element<br>
 C) Array elements are stored in memory in continuous or contiguous locations.<br>
@@ -13,13 +13,13 @@ B) An array size must be declared if not initialized immediately.<br>
 C) Array size is the sum of sizes of all elements of the array.<br>
 <b>D) All the above</b><br>
 
-3) What are the Types of Arrays.?<br>
+3) What are the Types of Arrays?<br>
 A) int, long, float, double<br>
 B) struct, enum<br>
 C) char<br>
 <b>D) All the above</b><br>
 
-4) An array Index starts with.?<br>
+4) An array Index starts with?<br>
 A) -1<br>
 <b>B) 0</b><br>
 C) 1<br>
