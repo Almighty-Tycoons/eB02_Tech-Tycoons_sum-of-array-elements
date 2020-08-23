@@ -24,8 +24,8 @@ a. 1 followed by four garbage values<br>
 c. 1 1 1 1 1<br>
 d. 0 0 0 0 0<br>
 
-Q 5. Predict the output of below program.<br>#include <stdio.h><br> int main()<br> { <br>int arr[5];<br>// Assume that base address of arr is 2000 and size of integer <br>// is 32 bit  <br>arr++;  <br>printf('%u', arr);  <br>return 0; <br>}"<br>
-a. 2020<br>
-b. 2004<br>
-<b>c. lvalue required<br></b>
+Q 5. Predict the output of below program.<br>#include <stdio.h><br> int main()<br> { <br>int arr[5];<br>arr[0]=2;  <br>printf('%d', arr[0]+5);  <br>return 0; <br>}"<br>
+a. 20<br>
+b. 2<br>
+<b>c. 7<br></b>
 d. None<br></b>
