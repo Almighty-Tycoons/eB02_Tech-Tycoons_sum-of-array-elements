@@ -45,7 +45,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Assessment Method: Formative assessment 
 
 <u> <b>Description: </b>
-    During the experiment, Students will perform tasks on the basis of instructions given previously, and simulator will execute code line by line. In simulator when user inputs the value which is to be define and the value is inncorrect the virtual simulator will display an alert message. After execution of the program user expects some predefined result. 
+    During the experiment, Students will perform tasks on the basis of instructions given previously, and simulator will execute code line by line. In simulator when the user inputs the values which is to be defined and if the value is incorrect then virtual simulator will display an alert message. After execution of the program user expects some predefined result. 
 
 
 <br/>
