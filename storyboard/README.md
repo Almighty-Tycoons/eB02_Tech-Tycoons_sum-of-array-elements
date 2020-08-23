@@ -40,10 +40,10 @@ Simulator starts with the experiment name on the top and show the code in code b
 13. User will get sum of array elements at the execution of the program.
 14. Program finished.
 
-##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+#### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
 
-Difficuty level: Evaluate<br><br>
+Difficuty level: Apply<br><br>
 Q1- Predict output of following program.<br>
              int main()<br>
                 {<br>
@@ -59,7 +59,7 @@ Q1- Predict output of following program.<br>
 <b>(c) 1 0 0 0 0 </b> <br>
 (d) 0 0 0 0 0 <br><br><br>
 
-Difficuty level: Evaluate<br><br>
+Difficuty level: Apply<br><br>
 Q2- Does C perform array out of bound checking? What is the output of the following program? <br>
                               int main()<br>
                                 {<br>
@@ -86,7 +86,7 @@ Q3- What does the following declaration mean?<br><br>
 (d) ptr is array of pointers to 10 integers<br><br><br>
 
 
-Difficulty level: Evaluate<br><br>
+Difficulty level: Understand<br><br>
 Q4- In C, if you pass an array as an argument to a function, what actually gets passed ?
 <br><br>
 <b>(a) First element of the array</b><br>
@@ -118,19 +118,19 @@ There are pitfalls in the simulator, mentioned below:
 In this whole experiment, User will be able to learn deep concepts after implementing things by doing hands-on tasks. This contains tasks separately to each learning objective mentioned by us. Generally, it will take almost half an hour to perform the experiment and to grasp the concept fully. Based on the successful completion of the experiment, user will be able to uderstand the algorithm of sum of array. And simulator expalains easliy how this whole process is done and how the logic behind this process works. Hence with this, all the mentioned learning outcomes can be taken with the user.
 
 ##### 2.7 Equations/formulas: NA
-int i, n;<br>
+int i, N;<br>
+int a[100];<br>
 printf("Input the number of elements to be stored in the array :");<br>
-       scanf("%d",&n);<br> 
-printf("Input %d elements in the array :\n",n);<br>
+       scanf("%d",&N);<br> 
+for(i=0;i<N;i++)<br>
       { <br>
-      printf("element - %d : ",i); <br>
        scanf("%d",&a[i]); <br>
        } <br>
 for(i=0; i<n; i++) <br>
    { <br>
       sum += a[i]; <br>
    }<br>
-
+printf("sum of elements of array is: " ,sum);<br>
 ### 3. Flowchart 
 <img src="flowchart/flowchart.png"/><br>
 
