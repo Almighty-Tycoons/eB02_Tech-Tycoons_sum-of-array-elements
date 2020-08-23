@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "What is an Array in C language.?",  ///// Write the question inside double quotes
+      question: "What is an Array in C language?",  ///// Write the question inside double quotes
       answers: {
         a: "A group of elements of same data type.",                  ///// Write the option 1 inside double quotes
         b: "An array contains more than one element",                  ///// Write the option 2 inside double quotes
@@ -113,7 +113,7 @@
 
 
     {
-      question: "What are the Types of Arrays.?",  
+      question: "What are the Types of Arrays?",  
       answers: {
         a: "int, long, float, double",                 
         b: "struct, enum",                
@@ -125,7 +125,7 @@
 
 
     {
-      question: "An array Index starts with.?",  
+      question: "An array Index starts with?",  
       answers: {
         a: "-1",                 
         b: "0",                  
