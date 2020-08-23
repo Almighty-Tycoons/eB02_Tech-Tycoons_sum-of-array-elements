@@ -40,8 +40,6 @@ var cn1 = 0;
 
 function Start() {
   document.getElementById("next-btn").hidden = false;
-  //this.convertFromStringToNumber()
-  console.log(cn + "  from start");
   changeClass(c + cn, 'showDivInRed code-text');
   cn += 1;
   cn1 += 1;
@@ -53,7 +51,6 @@ function Next() {
   if (cn == 2) {
     $('.di').show();
     changeClassColor(c + cn1, 'showDivInRed');
-    console.log(cn + "  im 2 ");
     changeClass(c + cn, 'showDivInRed code-text');
     cn += 1;
     cn1 += 1;
@@ -62,8 +59,7 @@ function Next() {
     if (cn == 3) {
       document.getElementById("a[]").hidden = false;
       document.getElementById("a[]").innerHTML = "a[10]";
-      changeClassColor(c + cn1, 'showDivInRed')
-      console.log(cn + "  im 3");
+      changeClassColor(c + cn1, 'showDivInRed');
       document.getElementById("box-A").hidden = false;
       document.getElementById("box-D").hidden = false;
       changeClass(c + cn, 'showDivInRed code-text');
@@ -74,7 +70,6 @@ function Next() {
         document.getElementById("next-btn").hidden = true;
         changeClassColor(c + cn1, 'showDivInRed');
         document.getElementById("InputBlock").hidden = false;
-        console.log(cn + "  im 4");
         changeClass(c + cn, 'showDivInRed code-text');
         cn += 1;
         cn1 += 1;
@@ -83,7 +78,6 @@ function Next() {
           changeClass(c + cn1, 'showDivInRed code-text');
         } else {
           changeClassColor(c + cn1, 'showDivInRed');
-          console.log(cn + "  im else ");
           changeClass(c + cn, 'showDivInRed code-text');
           cn += 1;
           cn1 += 1;
@@ -100,35 +94,24 @@ function enter() {
   document.getElementById("next-btn").hidden = true;
   N = document.getElementById("inputV1").value.trim();
   if (N == "") {
-    // location.reload();
-    // alert("Please provide input in N");
     $(".validation").html("Please provide input in N");
     return;
   }
 
   N = Number(N);
   if (isNaN(N)) {
-    // alert("Please provide input in numbers only");
-    // location.reload();
     $(".validation").html("Please provide input in numbers only");
     return;
   }
-  // console.log(N);
   if (!Number.isInteger(N)) {
-    // alert("Value of N can't be in float enter only positive Integer(max 10).");
-    // location.reload();
     $(".validation").html("Value of N can't be in float enter only positive Integer(max 10).");
     return;
   }
   if (N === 0 || N < 0) {
-    // alert("Minimum value of N : 1");
-    // location.reload();
     $(".validation").html("Minimum value of N : 1");
     return;
   }
   if (N > 10) {
-    // alert("Maximum limit of N : 10");
-    // location.reload();
     $(".validation").html("Maximum limit of N : 10");
     return;
   }
@@ -141,7 +124,6 @@ function enter() {
 
   document.getElementById("a[]").hidden = false;
   document.getElementById("a[]").innerHTML = "a[" + N + "]";
-  // console.log(N);
   for (var i = 1; i <= N; i++) {
     document.getElementById("in" + parseInt(i)).hidden = false;
   }
@@ -154,25 +136,19 @@ function enter() {
 }
 
 
-// var sum = 0;
-
 function displayElements() {
-  $(".validation").hide();
   Next();
-  // counting of elements
   for (var i = 1; i <= N; i++) {
     var s = document.getElementById("in" + parseInt(i)).value.trim();
     if (s == "") {
-      // location.reload();
-      // alert("Please provide inputs in array elements");
-      $(".validation").html("Please provide inputs in array elements");
+        $(".validation1").show();
+      $(".validation1").html("Please provide inputs in array elements");
       return;
     }
     s = Number(s);
     if (isNaN(s)) {
-      // alert("Please provide input in numbers only");
-      // location.reload();
-      $(".validation").html("Please provide input in numbers only");
+        $(".validation1").show();
+      $(".validation1").html("Please provide input in numbers only");
       return;
     }
     $(".validation").hide();
@@ -180,12 +156,13 @@ function displayElements() {
     document.getElementById("di" + parseInt(i)).innerHTML = s;
     Next();
   }
-  //  console.log(sum);
 
 
   document.getElementById("box-B").hidden = false;
   document.getElementById("submit-btn").hidden = true;
   document.getElementById("next-btn1").hidden = false;
+
+      $(".validation1").hide();
 }
 
 
@@ -204,7 +181,6 @@ function createBoxes() {
   changeClass('resultDisplay', 'resultDisplay');
 
 }
-// var reload = false;
 var i = 0;
 var finished = false;
 var finish = 0;
@@ -338,7 +314,6 @@ function Execution() {
                         changeClassColor("fline0", "showDivInRed"); ////
                         changeClassColor("fline1", "showDivInRed"); ////
                         changeClass("rline0", "showDivInRed code-text");
-                        // changeClass("rline1", "showDivInRed code-text");
                         document.getElementById("box-A").hidden = false;
                         document.getElementById("box-B").hidden = false;
                         document.getElementById("box-D").hidden = false;
