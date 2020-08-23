@@ -1,7 +1,8 @@
 In this program, we will learn how to initialize array and elements of array, indexing of array starts from zero(0).<br>
 Finding the sum of array elements is easy when you know how to iterate through array elements.
 The main purpose of this experiment is to demonstrate how to access array elements.
-User will have to enter the size of the array and input the array elements, for entering values of array indexes students will use <b>lop (anyone form: for, while, do-while)<b>
+User will have to enter the size of the array and input the array elements, for entering values of array indexes students will use <b>lop (anyone form: for, while, do-while)</b>
+
 Step:1 initialize N(size of array),arr(ayyay),i(for iterate) and sum(store sum of elements)
 
 int N;
