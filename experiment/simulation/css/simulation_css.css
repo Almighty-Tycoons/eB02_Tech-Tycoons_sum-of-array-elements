@@ -54,7 +54,7 @@ hr {
   height: 1px;
   margin-top: 20px;
   background: #333;
-  background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+  background-image: -webkit-linear-gradient(left, #333, #ccc, #333);
 }
 
 * {
@@ -84,8 +84,8 @@ body {
   height: 100vh;
   transition: all 0.3s ease;
   box-shadow: 5px 5px 15px #212121;
-  padding-top: 10%;
-  padding-left: 1.5vw;
+  padding-top: 7%;
+  padding-left: 1.2vw;
 }
 
 .list-section {
@@ -301,9 +301,9 @@ body {
   background-color: #403e4e;
   margin: 1%;
   padding: 2%;
-  font-size: 115%;
+  font-size: 111%;
   color: #fff;
-  width: 10vw;
+  width: 9vw;
 }
 
 label {
@@ -422,41 +422,6 @@ label {
     width: 100%;
   }
 
-  /*
-  .bottom-input {
-    transition: all 0.3s ease;
-    padding-top: 1vh;
-    display: inline-block !important;
-    min-width: 100vw;
-    background-color: #46445a;
-    position: fixed;
-    bottom: 0;
-    padding-left: 10%;
-  } */
-  /* .input-bottom-box {
-    transition: all 0.3s ease;
-    float: left;
-    width: 20%;
-    padding-left: 5%;
-  }
-
-  .input-bottom-box input {
-    transition: all 0.3s ease;
-    margin-left: -15%;
-  }
-
-  .input-bottom-button {
-    transition: all 0.3s ease;
-    margin-top: 0.5vh;
-    float: right;
-    width: 40%;
-  }
-
-  .input-bottom-button div {
-    transition: all 0.3s ease;
-    float: right;
-    width: 40%;
-  } */
   .original-container {
     margin-top: 100px !important;
   }
@@ -644,5 +609,10 @@ label {
   transition: all 0.3s ease;
 }
 .validation{
-  color: #ff0000;
+  color: #fddb3a;
+  font-weight: bold;
+}
+.validation1{
+  color: #fddb3a;
+  font-weight: bold;
 }
