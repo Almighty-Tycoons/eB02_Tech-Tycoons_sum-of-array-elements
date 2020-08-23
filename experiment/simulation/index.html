@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=\, initial-scale=1.0">
   <title>Simulation</title>
   <link rel="stylesheet" href="css/simulation_css.css">
-  <script src="https://kit.fontawesome.com/e557324b23.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
@@ -18,8 +17,9 @@
       <button id="next-btn" type="button" class="button-style" onclick="Next()">Next</button>
       <div id="InputBlock" class="InputBlock">
         <br>
-        <label for="inputV1" style="width: 14%;">Enter no. of elements N (max 10) :</label>
+        <label for="inputV1" style="width: 14%;">Enter no. of elements N (max 10) :</label><br>
         <input class="input-field" id="inputV1" type="text" value=" ">
+        <span style="float: left;" class="validation"></span><br>
         <button class="button-style" type="button" id="enter-btn" name="button" onclick="enter()">enter</button>
         <br>
         <br>
@@ -35,7 +35,7 @@
         <input id="in8" class="input-field" type="text" name="array[]" value="" /><br>
         <input id="in9" class="input-field" type="text" name="array[]" value="" /><br>
         <input id="in10" class="input-field" type="text" name="array[]" value="" /><br>
-        <span style="float: left;" class="validation"></span><br>
+        <span style="float: left;" class="validation1"></span><br>
         <button class="button-style" type="button" id="submit-btn" name="button" onclick="displayElements()"> Submit
         </button>
         <button id="next-btn1" type="button" class="button-style" onclick="Execution()">Next</button>
@@ -91,7 +91,7 @@
             </div>
             <div class="animation">
               <div class="head">
-                <h1 style="text-align: center; color: #fff;">Animation</h1>
+                <h1 style="text-align: center; color: #fff;">Memory</h1>
               </div>
               <div id="resultDisplay">
 
