@@ -8,7 +8,7 @@
 <b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Programming for problem sovling lab
-<b> Experiment|     <b> 3.  Write a program that simply takes elements of array from the user and finds the sum of these elements.
+<b> Experiment|     <b> 3.  Write a program in C that simply takes elements of array from the user and finds the sum of these elements.
 
 
 <h4> [1. Focus Area](#LO)
