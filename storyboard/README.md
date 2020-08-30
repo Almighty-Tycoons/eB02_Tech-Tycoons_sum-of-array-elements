@@ -1,6 +1,6 @@
 ## Storyboard (Round 2)
 
-Experiment 3:  Write a program that simply takes elements of array from the user and finds the sum of these elements.
+Experiment 3:  Write a program in C that simply takes elements of array from the user and finds the sum of these elements.
 
 ### 1. Story Outline:
 
